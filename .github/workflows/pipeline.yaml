@@ -36,5 +36,5 @@ jobs:
           username: ${{ secrets.AZURE_FTP_USERNAME }}   # from publish profile
           password: ${{ secrets.AZURE_FTP_PASSWORD }}   # from publish profile
           local-dir: dist/
-          server-dir: /site/wwwroot
+          server-dir: /site/wwwroot/
           protocol: ftps
