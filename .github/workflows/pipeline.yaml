@@ -32,9 +32,9 @@ jobs:
       - name: Deploy to Azure App Service via FTP
         uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          server: ftps://waws-prod-dxb-003.ftp.azurewebsites.windows.net
-          username: ${{ secrets.AZURE_FTP_USERNAME }}   # from publish profile
-          password: ${{ secrets.AZURE_FTP_PASSWORD }}   # from publish profile
-          local-dir: dist/
+          server: waws-prod-dxb-003.ftp.azurewebsites.windows.net  # ✅ no ftps://
+          username: ${{ secrets.AZURE_FTP_USERNAME }}
+          password: ${{ secrets.AZURE_FTP_PASSWORD }}
+          local-dir: dist/           # ✅ must end with /
           server-dir: /site/wwwroot/
-          protocol: ftps
+          protocol: ftps              # ✅ specify ftps separately
