@@ -3,29 +3,34 @@ name: Build and Deploy Vite Site to Azure Linux App Service
 on:
   push:
     branches:
-      - master
+      - master  # Keep your main branch here
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
+      # 1️⃣ Checkout repo
       - name: Checkout source
         uses: actions/checkout@v4
 
+      # 2️⃣ Setup Node.js
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
+      # 3️⃣ Install dependencies
       - name: Install dependencies
         run: npm install
 
+      # 4️⃣ Build Vite project
       - name: Build Vite project
         run: npm run build
 
+      # 5️⃣ Deploy to Azure Linux App Service using v2 (ZipDeploy)
       - name: Deploy to Azure App Service
-        uses: azure/webapps-deploy@v3
+        uses: azure/webapps-deploy@v2
         with:
           app-name: temp-linux
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
