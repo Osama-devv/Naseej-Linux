@@ -35,6 +35,6 @@ jobs:
           server: ftps://waws-prod-dxb-003.ftp.azurewebsites.windows.net
           username: ${{ secrets.AZURE_FTP_USERNAME }}   # from publish profile
           password: ${{ secrets.AZURE_FTP_PASSWORD }}   # from publish profile
-          local-dir: dist
+          local-dir: dist/
           server-dir: /site/wwwroot
           protocol: ftps
