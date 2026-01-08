@@ -3,7 +3,7 @@ name: Build and Deploy Vite Site to Azure Linux App Service
 on:
   push:
     branches:
-      - master  # Keep your main branch here
+      - master
 
 jobs:
   build-and-deploy:
@@ -28,10 +28,13 @@ jobs:
       - name: Build Vite project
         run: npm run build
 
-      # 5️⃣ Deploy to Azure Linux App Service using v2 (ZipDeploy)
-      - name: Deploy to Azure App Service
-        uses: azure/webapps-deploy@v2
+      # 5️⃣ FTP Deploy to Azure Linux App Service
+      - name: Deploy to Azure App Service via FTP
+        uses: SamKirkland/FTP-Deploy-Action@4.3.0
         with:
-          app-name: temp-linux
-          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
-          package: .
+          server: ftps://waws-prod-dxb-003.ftp.azurewebsites.windows.net
+          username: ${{ secrets.AZURE_FTP_USERNAME }}   # from publish profile
+          password: ${{ secrets.AZURE_FTP_PASSWORD }}   # from publish profile
+          local-dir: dist
+          server-dir: /site/wwwroot
+          protocol: ftps
