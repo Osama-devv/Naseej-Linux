@@ -1,0 +1,115 @@
+@use '../globals/variables.scss' as *;
+
+.hover-animate-btn--x svg {
+    transition: none;
+    /*rtl:raw: rotate: 180deg;*/
+}
+
+@media #{$vpMinTablet1200} {
+    .hover-animate-btn--x:hover svg {
+        @media #{$vpMinTablet1200} {
+            animation: btnIconAnimationX 0.3s forwards;
+        }
+    }
+
+    .hover-animate-btn--x:not(:hover) svg {
+        @media #{$vpMinTablet1200} {
+            animation: btnIconAnimationXReverse 0.3s forwards;
+        }
+    }
+}
+
+@keyframes btnIconAnimationX {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(100%);
+        /*rtl:raw: transform: translateX(-100%);*/
+    }
+
+    51% {
+        transform: translateX(-100%);
+        /*rtl:raw: transform: translateX(100%);*/
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes btnIconAnimationXReverse {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-100%);
+        /*rtl:raw: transform: translateX(100%);*/
+    }
+
+    51% {
+        transform: translateX(100%);
+        /*rtl:raw: transform: translateX(-100%);*/
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+.hover-animate-btn--y svg {
+    transition: none;
+}
+
+@media #{$vpMinTablet1200} {
+    .hover-animate-btn--y:hover svg {
+        animation: btnIconAnimationY 0.3s forwards;
+    }
+
+    .hover-animate-btn--y:not(:hover) svg {
+        animation: btnIconAnimationYReverse 0.3s forwards;
+    }
+}
+
+@keyframes btnIconAnimationY {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(100%);
+        /*rtl:raw: transform: translateY(-100%);*/
+    }
+
+    51% {
+        transform: translateY(-100%);
+        /*rtl:raw: transform: translateY(100%);*/
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes btnIconAnimationYReverse {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-100%);
+        /*rtl:raw: transform: translateY(100%);*/
+    }
+
+    51% {
+        transform: translateY(100%);
+        /*rtl:raw: transform: translateY(-100%);*/
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}">
+
+  <meta name="twitter:card" content="{{twitterMeta.card}}">
+  <meta name="twitter:site" content="{{twitterMeta.site}}">
+  <meta name="twitter:creator" content="{{twitterMeta.creator}}">
+  <meta name="twitter:title" content="{{twitterMeta.title}}">
+  <meta name="twitter:description" content="{{twitterMeta.description}}">
+  <meta name="twitter:url" content="{{twitterMeta.url}}">
+  <meta name="twitter:image" content="{{twitterMeta.image}}">
+  <meta name="twitter:image:alt" content="{{twitterMeta.imageAlt}}">
+
+  <meta property="og:type" content="{{ogMeta.type}}">
+  <meta property="og:site_name" content="{{ogMeta.siteName}}">
+  <meta property="og:locale" content="{{ogMeta.locale}}">
+  <meta property="og:locale:alternate" content="{{ogMeta.localeAlternate}}">
+  <meta property="og:title" content="{{ogMeta.title}}">
+  <meta property="og:description" content="{{ogMeta.description}}">
+  <meta property="og:url" content="{{ogMeta.url}}">
+  <meta property="og:image" content="{{ogMeta.image}}">
+  <meta property="og:image:secure_url" content="{{ogMeta.imageSecureUrl}}">
+  <meta property="og:image:alt" content="{{ogMeta.imageAlt}}">
+  <meta property="og:image:width" content="{{ogMeta.imageWidth}}">
+  <meta property="og:image:height" content="{{ogMeta.imageHeight}}">
+
+  <script type="application/ld+json">
+    {{{ organizationSchema }}}
+  </script>
+
+  <link rel="preload" href="/assets/fonts/ABCFavoritCondensed-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/ABCFavoritCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="preload" href="/assets/fonts/ABCFavoritArabic-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/ABCFavoritArabic-Bold.woff2" as="font" type="font/woff2" crossorigin>
+
+  <link rel="stylesheet" href="/assets/scss/converted-style.scss" />
+  <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
+
+  <link rel="canonical" href="{{canonical}}" />
+
+  <!-- Default / Neutral version -->
+  <link rel="alternate" href="https://uat.uaenaseej.ae/en/" hreflang="x-default" />
+
+  <!-- English version -->
+  <link rel="alternate" href="https://uat.uaenaseej.ae/en/" hreflang="en-AE" />
+
+  <!-- Arabic version -->
+  <link rel="alternate" href="https://uat.uaenaseej.ae/ar/" hreflang="ar-AE" />
+
+  <link rel="preload" href="/assets/images/thumbnails/modal-3-desk-hero.webp" as="image" type="image/webp">
+
+</head>
+
+<body class="js-home-page">
+  {{> sideBar }}
+  {{> header }}
+  {{> main-background }}
+  <div id="smooth-wrapper">
+    <div id="smooth-content">
+      {{> slide-1 }}
+
+      <div class="slides-group">
+        <div class="svg-wraps" id="line-2">
+          <span class="red-line-wrap">
+            <span class="red-line"></span>
+          </span>
+          <div class="st-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" version="1.1" viewBox="0 0 114 83">
+              <path class="st1" d="M57,0v82M57,82c-1.7-19-15.4-57-57-57M57,82c1.7-19,15.4-57,57-57" fill="none"
+                stroke="#FB1D1D" stroke-width="14" />
+            </svg>
+          </div>
+        </div>
+        {{> slide-3 }}
+        {{> slide-4 }}
+        {{> slide-5 }}
+      </div>
+
+
+      <div class="slides-group">
+        <div class="svg-wraps" id="line-3">
+          <span class="red-line-wrap">
+            <span class="red-line"></span>
+          </span>
+          <div class="st-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" version="1.1" viewBox="0 0 114 83">
+              <path class="st1" d="M57,0v82M57,82c-1.7-19-15.4-57-57-57M57,82c1.7-19,15.4-57,57-57" fill="none"
+                stroke="#FB1D1D" stroke-width="14" />
+            </svg>
+          </div>
+        </div>
+        {{> slide-6 }}
+        {{> slide-7 }}
+        {{> slide-8 }}
+        {{> vision-mission }}
+      </div>
+
+      <div class="slides-group">
+        <div class="svg-wraps" id="line-4">
+          <span class="red-line-wrap">
+            <span class="red-line"></span>
+          </span>
+          <div class="st-wrapper">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" version="1.1" viewBox="0 0 114 83">
+              <path class="st1" d="M57,0v82M57,82c-1.7-19-15.4-57-57-57M57,82c1.7-19,15.4-57,57-57" fill="none"
+                stroke="#FB1D1D" stroke-width="14" />
+            </svg>
+          </div>
+        </div>
+        {{> slide-9}}
+        {{> slide-11}}
+      </div>
+
+      {{> slide-12}}
+      {{> copyright}}
+
+
+      <svg width="0" height="0" id="snakeSvg">
+        <path id="snakePathLTR"
+          d="M0.484375 540.42C19.9844 618.586 102.584 774.92 276.984 774.92C494.984 774.92 623.884 604.149 594.984 436.42C569.484 288.42 654.484 117.622 811.984 75.4197C969.484 33.2177 1173.98 84.9197 1243.98 388.42C1313.98 691.92 1506.89 755.5 1664.89 751.5C1822.89 747.5 2005.39 630.08 2141.39 453C2141.39 453 2282.39 224.5 2315.39 75.4197" />
+        <path id="snakePathRTL"
+          d="M0.486328 81.801C51.8197 304.634 243.186 750.301 597.986 750.301C952.786 750.301 1056.15 509.634 1063.49 389.301C1085.65 273.468 1190.19 45.801 1430.99 61.801C1731.99 81.801 1714.49 402.801 1716.49 418.301C1718.49 433.801 1686.99 734.301 1976.99 772.301C2208.99 802.701 2294.99 630.634 2308.99 540.801" />
+      </svg>
+    </div>
+  </div>
+  <script type="module" src="/assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+@use '../globals/variables.scss' as *;
+
+.main-background {
+  height: 100svh;
+  width: 100vw;
+  background: center / cover no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+
+  &.media-background {
+    .thread-overlay {
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      width: auto;
+      height: 100svh;
+      z-index: -1;
+    }
+  }
+
+  &.lines-background{
+    position: fixed;
+    width: 100vw;
+  }
+}
+
+
+.main-background__line {
+  position: absolute;
+  top: 0;
+  width: 2px;
+  height: 100svh;
+  transform-origin: top;
+  transform: translateX(-50%);
+  
+  background: repeating-linear-gradient(to bottom,
+      $beije,
+      $beije 16px,
+      transparent 12px,
+      transparent 28px);
+
+  // background: repeating-linear-gradient(
+  //   to bottom,
+  //   rgb(3, 255, 24),
+  //   rgb(3, 255, 24) 16px,
+  //   transparent 12px,
+  //   transparent 28px
+  // );
+  
+
+  &.light {
+    // z-index: 2;
+    z-index: 0;
+
+    @media #{$vpTablet991} {
+      display: none;
+    }
+
+    &.line-1 {
+      left: 6.12rem;
+    }
+
+    &.line-2 {
+      left: 25.95rem;
+    }
+
+    &.line-3 {
+      left: 50%;
+      // display: none;
+    }
+
+    &.line-4 {
+      right: 25.95rem;
+    }
+
+    &.line-5 {
+      right: 6.1rem;
+    }
+  }
+}
+
+
+// .slide2,.slide-3,.slide-4,.slide-5,.slide-6,.slide-7,.slide-8,.slide-9,.slide-10,.slide-11,.slide-12{
+//   z-index: 99;
+// }

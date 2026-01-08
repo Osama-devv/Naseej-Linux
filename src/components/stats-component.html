@@ -1,0 +1,133 @@
+<section class="statistics">
+  <div class="container">
+    <div class="statistics__container">
+      <div class="statistics__tabs" role="tablist" aria-label="Statistics tabs">
+        <div class="statistics__tabs__wrapper">
+          <button class="tab-btn heading7 active" data-index="0" aria-selected="true" role="tab">
+            <span class="tab-btn-text">{{statisticsTab.tabs.item1.label}}</span>
+            <div class="progress-bar"><span></span></div>
+          </button>
+          <button class="tab-btn heading7" data-index="1" aria-selected="false" role="tab">
+            <span class="tab-btn-text">{{statisticsTab.tabs.item2.label}}</span>
+            <div class="progress-bar"><span></span></div>
+          </button>
+          <button class="tab-btn heading7" data-index="2" aria-selected="false" role="tab">
+            <span class="tab-btn-text">{{statisticsTab.tabs.item3.label}}</span>
+            <div class="progress-bar"><span></span></div>
+          </button>
+          <button class="tab-btn heading7" data-index="3" aria-selected="false" role="tab">
+            <span class="tab-btn-text">{{statisticsTab.tabs.item4.label}}</span>
+            <div class="progress-bar"><span></span></div>
+          </button>
+          <button class="tab-btn heading7" data-index="4" aria-selected="false" role="tab">
+            <span class="tab-btn-text">{{statisticsTab.tabs.item5.label}}</span>
+            <div class="progress-bar"><span></span></div>
+          </button>
+        </div>
+      </div>
+
+      <div class="statistics__content swiper">
+        <div class="swiper-wrapper">
+          <div class="tab-content swiper-slide chart" id="tab-0" role="tabpanel">
+            <div class="content-text">
+
+              <p class="numbers stat-number-wrap">
+                <span class="pre-text"> {{statisticsTab.tabs.item1.prefix}}</span>
+                <span class="stat-number">{{statisticsTab.tabs.item1.number}}</span>
+                <!-- <span class="post-text">%</span> -->
+              </p>
+
+              <div class="content-text-item-wrap">
+                <p class="body2 content-text-item">{{{statisticsTab.tabs.item1.text}}}</p>
+                <!-- <p class="body2 content-text-item">{{statisticsTab.tabs.item1.text}}</p> -->
+              </div>
+
+            </div>
+            <canvas id="textileChart-1" data-labels="2005,2006,2007,2008,2009"
+              data-values="620,610,640,620,700"></canvas>
+          </div>
+
+          <div class="tab-content swiper-slide chart" id="tab-1" role="tabpanel" aria-hidden="true">
+            <div class="content-text">
+              <p class="numbers stat-number-wrap">
+                <span class="pre-text">{{statisticsTab.tabs.item2.prefix}}</span>
+                <span class="stat-number">{{statisticsTab.tabs.item2.number}}</span>
+                <span class="post-text">{{statisticsTab.tabs.item2.postfix}}</span>
+              </p>
+
+              <div class="content-text-item-wrap">
+                <!-- <p class="body2 content-text-item bold">{{statisticsTab.tabs.item2.bold_text}}</p> -->
+                <p class="body2 content-text-item">{{{statisticsTab.tabs.item2.text}}}</p>
+              </div>
+
+            </div>
+            <canvas id="textileChart-2" data-labels="2005,2006,2007,2008,2009"
+              data-values="620,610,640,620,700"></canvas>
+          </div>
+
+          <div class="tab-content swiper-slide" id="tab-2" role="tabpanel" aria-hidden="true">
+            <div class="content-text">
+              <p class="numbers stat-number-wrap">
+                <span class="pre-text">{{statisticsTab.tabs.item3.prefix}}</span>
+                <span class="stat-number">{{statisticsTab.tabs.item3.number}}</span>
+                <span class="post-text">{{statisticsTab.tabs.item3.postfix}}</span>
+              </p>
+
+              <div class="content-text-item-wrap">
+                <!-- <p class="body2 content-text-item bold">{{statisticsTab.tabs.item3.bold_text}}</p> -->
+                <p class="body2 content-text-item">{{{statisticsTab.tabs.item3.text}}}</p>
+              </div>
+            </div>
+            <div class="image-wrapper animate">
+              <img src="/assets/images/svg/dsk-88.svg" alt="modal-image" class="image desk liquid-animation js-tosvg"
+                loading="lazy" />
+              <img src="/assets/images/svg/mob-88.svg" alt="modal-image" class="image mob liquid-animation js-tosvg"
+                loading="lazy" />
+            </div>
+          </div>
+
+          <div class="tab-content swiper-slide" id="tab-3" role="tabpanel" aria-hidden="true">
+            <div class="content-text">
+              <p class="numbers stat-number-wrap">
+                <span class="pre-text">{{statisticsTab.tabs.item4.prefix}} </span>
+                <span class="stat-number">{{statisticsTab.tabs.item4.number}}</span>
+                <span class="post-text">{{statisticsTab.tabs.item4.postfix}}</span>
+              </p>
+              <div class="content-text-item-wrap">
+                <!-- <p class="body2 content-text-item bold">{{statisticsTab.tabs.item4.bold_text}}</p> -->
+                <p class="body2 content-text-item">{{{statisticsTab.tabs.item4.text}}}</p>
+              </div>
+            </div>
+            <div class="image-wrapper animate">
+              <img src="/assets/images/svg/dsk-57.svg" alt="modal-image" class="image liquid-animation desk js-tosvg"
+                loading="lazy" />
+              <img src="/assets/images/svg/mob-57.svg" alt="modal-image" class="image liquid-animation mob js-tosvg"
+                loading="lazy" />
+            </div>
+          </div>
+
+          <div class="tab-content swiper-slide" id="tab-4" role="tabpanel" aria-hidden="true">
+            <div class="content-text">
+              <p class="numbers stat-number-wrap">
+                <span class="pre-text">{{statisticsTab.tabs.item5.prefix}}</span>
+                <span class="stat-number">{{statisticsTab.tabs.item5.number}}</span>
+                <span class="post-text">{{statisticsTab.tabs.item5.postfix}}</span>
+              </p>
+              <div class="content-text-item-wrap">
+                <!-- <p class="body2 content-text-item bold">{{statisticsTab.tabs.item5.bold_text}}</p> -->
+                <p class="body2 content-text-item">{{{statisticsTab.tabs.item5.text}}}</p>
+              </div>
+            </div>
+            <div class="image-wrapper animate">
+              <img src="/assets/images/svg/dsk-60.svg" alt="modal-image" class="image liquid-animation desk js-tosvg"
+                loading="lazy" />
+              <img src="/assets/images/svg/mob-60.svg" alt="modal-image" class="image liquid-animation mob js-tosvg"
+                loading="lazy" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>

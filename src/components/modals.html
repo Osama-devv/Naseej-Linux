@@ -1,0 +1,397 @@
+<!-- Modal 1 -->
+<div class="chp-modal" id="modal1">
+  <div class="modal-content">
+    <button class="close-btn">
+      <img src="/assets/images/icons/modal-close.svg" alt="logo" class="js-tosvg">
+    </button>
+    <div class="chp-modal-1">
+
+      <h4 class="heading4 modal-heading">{{chapterModal1.heading}}</h4>
+      <div class="modal-image-wrapper">
+        <picture>
+          <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+          <source media="(max-width: 600px)" srcset="/assets/images/thumbnails/modal-1-mob-hero.png" />
+
+          <!-- Desktop view (fallback for wider screens) -->
+          <source media="(min-width: 601px)" srcset="/assets/images/thumbnails/modal-1-dek-hero.png" />
+
+          <!-- Ultimate fallback for browsers that don't support <picture> -->
+          <img src="/assets/images/thumbnails/modal-one-card1-iamge.png" alt="modal-image"
+            class="modal-image zoom-in-out-anim" loading="lazy" />
+        </picture>
+      </div>
+      <p class="body1 modal-description">{{chapterModal1.description}}</p>
+
+      <div class="modal-card">
+        <div class="card-item">
+          <p class="body1 card-description">{{chapterModal1.card1.description}}</p>
+          <div class="card-image-wrapper">
+            <!-- <img src="/assets/images/thumbnails/circle-one.png" alt="modal-image" class="card-image"> -->
+            <picture>
+              <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+              <source media="(max-width: 600px)" srcset={{chapterModal1.card1.image.src}} />
+
+              <!-- Desktop view (fallback for wider screens) -->
+              <source media="(min-width: 601px)" srcset={{chapterModal1.card1.image.src}} />
+
+              <!-- Ultimate fallback for browsers that don't support <picture> -->
+              <img src={{chapterModal1.card1.image.src}} alt="modal-image" class="card-image zoom-in-out-anim"
+                loading="lazy" />
+            </picture>
+          </div>
+          <span class="circle-one">
+            <div class="half-shaded-circle">
+              <span class="left-half"><canvas data-text='{{chapterModal1.card1.canvasDataTextBrand}}'
+                  class="curved-text mini-circle"></canvas></span>
+              <span class="right-half">
+                <canvas data-text='{{chapterModal1.card1.canvasDataTextWhite}}'
+                  class="curved-text mini-circle"></canvas>
+              </span>
+            </div>
+          </span>
+        </div>
+        <div class="card-item reverse">
+          <p class="body1 card-description">{{chapterModal1.card2.description}}</p>
+          <div class="card-image-wrapper">
+            <!-- <img src="/assets/images/thumbnails/circle-one.png" alt="modal-image" class="card-image"> -->
+            <picture>
+              <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+              <source media="(max-width: 600px)" srcset={{chapterModal1.card2.image.src}} />
+
+              <!-- Desktop view (fallback for wider screens) -->
+              <source media="(min-width: 601px)" srcset={{chapterModal1.card2.image.src}} />
+
+              <!-- Ultimate fallback for browsers that don't support <picture> -->
+              <img src={{chapterModal1.card2.image.src}} alt="modal-image" class="card-image zoom-in-out-anim"
+                loading="lazy" />
+            </picture>
+          </div>
+          <span class="circle-two">
+            <div class="half-shaded-circle">
+              <span class="left-half"><canvas data-text='{{chapterModal1.card1.canvasDataTextBrand}}'
+                  class="curved-text mini-circle"></canvas></span>
+              <span class="right-half">
+                <canvas data-text='{{chapterModal1.card1.canvasDataTextWhite}}'
+                  class="curved-text mini-circle"></canvas>
+              </span>
+            </div>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="chp-modal" id="modal2">
+  <div class="modal-content">
+    <button class="close-btn">
+      <img src="/assets/images/icons/modal-close.svg" alt="logo" class="js-tosvg">
+    </button>
+    <div class="chp-modal-2">
+
+      <h4 class="heading4 modal-heading">{{chapterModal2.heading}}</h4>
+      <div class="modal-image-wrapper animate">
+        <picture>
+          <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+          <source media="(max-width: 600px)" srcset={{chapterModal2.heroImage.mobileSrc}} />
+
+          <!-- Desktop view (fallback for wider screens) -->
+          <source media="(min-width: 601px)" srcset={{chapterModal2.heroImage.desktopSrc}} />
+
+          <!-- Ultimate fallback for browsers that don't support <picture> -->
+          <img src={{chapterModal2.heroImage.desktopSrc}} alt="modal-image" class="modal-image" loading="lazy" />
+        </picture>
+      </div>
+
+      <div class="modal-card">
+        <div class="card-item">
+          <div class="stats">
+            <h2 class="numbers stat-number-wrap">
+              <span>{{chapterModal2.cards.card1.stats.prefix}}</span>
+              <span class="stat-number">{{chapterModal2.cards.card1.stats.number}}</span>
+              <span class="post-text">{{chapterModal2.cards.card1.stats.postText}}</span>
+            </h2>
+            <div class="stat-text">
+              <p class="body1 stat-text-1">{{chapterModal2.cards.card1.stats.text1}}</p>
+              <p class="body1 stat-text-2">{{chapterModal2.cards.card1.stats.text2}}</span></p>
+            </div>
+          </div>
+
+          <div class="card-image-wrapper animate">
+            <img src="/assets/images/svg/illustation-1.2-dsk.svg" alt="modal-image" class="card-image desk js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustation-1.2-mob.svg" alt="modal-image" class="card-image mob js-tosvg"
+              loading="lazy" />
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="stats">
+            <h2 class="numbers stat-number-wrap">
+              <span>{{chapterModal2.cards.card2.stats.prefix}}</span>
+              <span class="stat-number">{{chapterModal2.cards.card2.stats.number}}</span>
+            </h2>
+            <div class="stat-text">
+              <p class="body1 stat-text-1">{{chapterModal2.cards.card2.stats.text1}}</p>
+              <p class="body1 stat-text-2">{{chapterModal2.cards.card2.stats.text2}}</span></p>
+            </div>
+          </div>
+
+          <div class="card-image-wrapper animate">
+            <img src="/assets/images/svg/illustation-1.2-dsk.svg" alt="modal-image" class="card-image desk js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustation-1.2-mob.svg" alt="modal-image" class="card-image mob js-tosvg"
+              loading="lazy" />
+          </div>
+        </div>
+
+        <div class="card-item row-reverse">
+          <div class="stats">
+            <h2 class="numbers stat-number-wrap">
+              <span>{{chapterModal2.cards.card3.stats.prefix}}</span>
+
+              <span class="stat-number">{{chapterModal2.cards.card3.stats.number}}</span>
+              <span>{{chapterModal2.cards.card3.stats.suffix}}</span>
+
+            </h2>
+            <div class="stat-text">
+              <p class="body1 stat-text-1">{{chapterModal2.cards.card3.stats.text1}}</p>
+              <p class="body1 stat-text-2">{{chapterModal2.cards.card3.stats.text2}}</span></p>
+            </div>
+          </div>
+
+          <div class="card-image-wrapper animate">
+            <img src="/assets/images/svg/illustration-2.2-dsk.svg" alt="modal-image" class="card-image desk js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustation-1.2-mob.svg" alt="modal-image" class="card-image mob js-tosvg"
+              loading="lazy" />
+          </div>
+        </div>
+
+        <div class="card-item centered">
+          <div class="stats">
+            <!-- <span class="body1 per-text">Closets are full, but</span> -->
+            <h2 class="numbers stat-number-wrap reverse">
+              <span class="stat-number">{{chapterModal2.cards.card4.stats.number}}</span>
+              <span>{{chapterModal2.cards.card4.stats.suffix}}</span>
+            </h2>
+            <div class="stat-text">
+              <p class="body1 stat-text-1">{{chapterModal2.cards.card4.stats.text1}}</p>
+              <p class="body2 stat-text-2">{{chapterModal2.cards.card4.stats.text2}}</p>
+            </div>
+          </div>
+
+          <div class="card-image-wrapper animate">
+            <img src="/assets/images/svg/illustration-3-layer-1.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustration-3-layer-2.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustration-3-layer-3.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustration-3-layer-4.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustration-3-layer-5.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+          </div>
+        </div>
+        <div class="card-item centered">
+          <div class="stats">
+            <span class="body1 per-text">{{chapterModal2.cards.card5.stats.prefixText}}</span>
+            <h2 class="numbers stat-number-wrap reverse">
+              <span class="stat-number">{{chapterModal2.cards.card5.stats.number}}</span>
+              <span>{{chapterModal2.cards.card5.stats.suffix}}</span>
+            </h2>
+            <div class="stat-text">
+              <p class="body1 stat-text-1">{{chapterModal2.cards.card5.stats.text1}}</p>
+              <p class="body2 stat-text-2">{{chapterModal2.cards.card5.stats.text2}}</p>
+            </div>
+          </div>
+
+          <div class="card-image-wrapper animate">
+            <img src="/assets/images/svg/illustration-3-layer-1.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustration-3-layer-2.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustration-3-layer-3.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustration-3-layer-4.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+            <img src="/assets/images/svg/illustration-3-layer-5.svg" alt="modal-image" class="card-image js-tosvg"
+              loading="lazy" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="chp-modal" id="modal3">
+  <div class="modal-content">
+    <button class="close-btn">
+      <img src="/assets/images/icons/modal-close.svg" alt="logo" class="js-tosvg">
+    </button>
+    <div class="chp-modal-3">
+
+      <h4 class="heading4 modal-heading">{{chapterModal3.heading}}</h4>
+      <div class="modal-image-wrapper">
+        <picture>
+          <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+          <source media="(max-width: 600px)" srcset={{chapterModal3.heroImage.mobileSrc}} />
+
+          <!-- Desktop view (fallback for wider screens) -->
+          <source media="(min-width: 601px)" srcset={{chapterModal3.heroImage.desktopSrc}} />
+
+          <!-- Ultimate fallback for browsers that don't support <picture> -->
+          <img src={{chapterModal3.heroImage.desktopSrc}} alt="modal-image" class="modal-image" loading="lazy" />
+        </picture>
+      </div>
+
+      <div class="modal-card">
+        <span class="circle-outer">
+          <div class="half-shaded-circle">
+            <span class="left-half"><canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextBrand}}'
+                class="curved-text mini-circle"></canvas></span>
+            <span class="right-half">
+              <canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextWhite}}'
+                class="curved-text mini-circle"></canvas>
+            </span>
+          </div>
+        </span>
+        <div class="card-item">
+          <div class="card-content">
+            <h4 class="heading4 card-heading">{{chapterModal3.cards.card1.title}}</h4>
+            <p class="body1 card-description">{{chapterModal3.cards.card1.description}}</p>
+          </div>
+          <div class="card-image-wrapper">
+            <div class="card-circle-wrapper">
+              <picture>
+                <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+                <source media="(max-width: 600px)" srcset={{chapterModal3.cards.card1.image.mobileSrc}} />
+
+                <!-- Desktop view (fallback for wider screens) -->
+                <source media="(min-width: 601px)" srcset={{chapterModal3.cards.card1.image.desktopSrc}} />
+
+                <!-- Ultimate fallback for browsers that don't support <picture> -->
+                <img src={{chapterModal3.cards.card1.image.desktopSrc}} alt="modal-image"
+                  class="card-image zoom-in-out-anim" loading="lazy" />
+              </picture>
+            </div>
+
+            <span class="circle-one">
+              <div class="half-shaded-circle">
+                <span class="left-half"><canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextBrand}}'
+                    class="curved-text mini-circle"></canvas></span>
+                <span class="right-half">
+                  <canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextWhite}}'
+                    class="curved-text mini-circle"></canvas>
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-content">
+            <h4 class="heading4 card-heading">{{chapterModal3.cards.card2.title}}</h4>
+            <p class="body1 card-description">{{chapterModal3.cards.card2.description}}</p>
+          </div>
+          <div class="card-image-wrapper">
+            <div class="card-circle-wrapper">
+              <picture>
+                <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+                <source media="(max-width: 600px)" srcset={{chapterModal3.cards.card2.image.mobileSrc}} />
+
+                <!-- Desktop view (fallback for wider screens) -->
+                <source media="(min-width: 601px)" srcset={{chapterModal3.cards.card2.image.desktopSrc}} />
+
+                <!-- Ultimate fallback for browsers that don't support <picture> -->
+                <img src={{chapterModal3.cards.card2.image.desktopSrc}} alt="modal-image"
+                  class="card-image zoom-in-out-anim" loading="lazy" />
+              </picture>
+            </div>
+            <span class="circle-left">
+              <div class="half-shaded-circle">
+                <span class="left-half"><canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextBrand}}'
+                    class="curved-text mini-circle"></canvas></span>
+                <span class="right-half">
+                  <canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextWhite}}'
+                    class="curved-text mini-circle"></canvas>
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-content">
+            <h4 class="heading4 card-heading">{{chapterModal3.cards.card3.title}}</h4>
+            <p class="body1 card-description">{{chapterModal3.cards.card3.description}}</p>
+          </div>
+          <div class="card-image-wrapper">
+            <div class="card-circle-wrapper">
+              <picture>
+                <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+                <source media="(max-width: 600px)" srcset={{chapterModal3.cards.card3.image.mobileSrc}} />
+
+                <!-- Desktop view (fallback for wider screens) -->
+                <source media="(min-width: 601px)" srcset={{chapterModal3.cards.card3.image.desktopSrc}} />
+
+                <!-- Ultimate fallback for browsers that don't support <picture> -->
+                <img src={{chapterModal3.cards.card3.image.desktopSrc}} alt="modal-image"
+                  class="card-image zoom-in-out-anim" loading="lazy" />
+              </picture>
+            </div>
+            <span class="circle-right">
+              <div class="half-shaded-circle">
+                <span class="left-half"><canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextBrand}}'
+                    class="curved-text mini-circle"></canvas></span>
+                <span class="right-half">
+                  <canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextWhite}}'
+                    class="curved-text mini-circle"></canvas>
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+
+        <div class="card-item">
+          <div class="card-content">
+            <h4 class="heading4 card-heading">{{chapterModal3.cards.card4.title}}</h4>
+            <p class="body1 card-description">{{chapterModal3.cards.card4.description}}</p>
+          </div>
+          <div class="card-image-wrapper">
+            <div class="card-circle-wrapper">
+              <picture>
+                <!-- Mobile / tablet view: when viewport is 991px or narrower -->
+                <source media="(max-width: 600px)" srcset={{chapterModal3.cards.card4.image.mobileSrc}} />
+
+                <!-- Desktop view (fallback for wider screens) -->
+                <source media="(min-width: 601px)" srcset={{chapterModal3.cards.card4.image.desktopSrc}} />
+
+                <!-- Ultimate fallback for browsers that don't support <picture> -->
+                <img src={{chapterModal3.cards.card4.image.desktopSrc}} alt="modal-image"
+                  class="card-image zoom-in-out-anim" loading="lazy" />
+              </picture>
+            </div>
+            <span class="circle-left">
+              <div class="half-shaded-circle">
+                <span class="left-half"><canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextBrand}}'
+                    class="curved-text mini-circle"></canvas></span>
+                <span class="right-half">
+                  <canvas data-text='{{chapterModal3.cards.card1.circle.canvasDataTextWhite}}'
+                    class="curved-text mini-circle"></canvas>
+                </span>
+              </div>
+            </span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

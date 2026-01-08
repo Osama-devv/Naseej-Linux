@@ -1,0 +1,621 @@
+{
+  "dir": "ltr",
+  "baseURLMain": ".",
+  "baseURL": ".",
+  "baseURLAr": "./ar",
+  "currentURL": "/en/",
+  "asset": "./assets",
+  "title": "Naseej UAE | Sustainable Textiles, Heritage & Circular Future",
+  "description": "Discover how Naseej is shaping the UAE’s textile future, preserving Emirati heritage, driving textile recycling, and building a sustainable, circular economy.",
+  "canonical": "https://uat.uaenaseej.ae/en/",
+  "organizationSchema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"@id\": \"https://uat.uaenaseej.ae/#organization\",\n  \"url\": \"https://uat.uaenaseej.ae/en/\",\n  \"name\": \"Naseej\",\n  \"alternateName\": \"Naseej – UAE National Textile Circularity Initiative\",\n  \"description\": \"Naseej is the UAE’s national initiative on textile circularity, bringing together communities, industry, and government to transform textile waste into a new fabric of possibility through awareness, collection and recycling, circular business models, and supportive policy.\",\n  \"slogan\": \"Textiles carry our heritage. Let’s give them a future.\",\n  \"logo\": {\n    \"@type\": \"ImageObject\",\n    \"url\": \"https://uat.uaenaseej.ae/assets/images/logo.svg\"\n  },\n  \"image\": \"https://uat.uaenaseej.ae/assets/images/modal-3-desk-hero.webp\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressCountry\": \"AE\"\n  },\n  \"areaServed\": \"AE\",\n  \"knowsAbout\": [\n    \"Textile circularity\",\n    \"Textile collection and recycling\",\n    \"Community awareness and education\",\n    \"Market intelligence and research\",\n    \"Policies and regulations for sustainability\",\n    \"Circular business and innovation\"\n  ]\n}",
+  "twitterMeta": {
+    "card": "summary_large_image",
+    "site": "@uaenaseej",
+    "creator": "@uaenaseej",
+    "title": "Naseej — Textiles carry our heritage, let’s give them a future",
+    "description": "Naseej is the UAE’s national initiative on textile circularity — keeping textiles in use through awareness, recycling, innovation, and community action.",
+    "url": "https://uat.uaenaseej.ae/en/",
+    "image": "https://uat.uaenaseej.ae/assets/images/modal-3-desk-hero.webp",
+    "imageAlt": "Textiles carry our heritage — let’s give them a future"
+  },
+  "ogMeta": {
+    "type": "website",
+    "siteName": "Naseej",
+    "locale": "en_AE",
+    "localeAlternate": "ar_AE",
+    "title": "Naseej — Textiles carry our heritage, let’s give them a future",
+    "description": "Every garment tells a story. Every fabric holds value. Naseej is the UAE’s national initiative on textile circularity, keeping textiles in use and weaving a circular future for the UAE.",
+    "url": "https://uat.uaenaseej.ae/en/",
+    "image": "https://uat.uaenaseej.ae/assets/images/modal-3-desk-hero.webp",
+    "imageSecureUrl": "https://uat.uaenaseej.ae/assets/images/modal-3-desk-hero.webp",
+    "imageAlt": "Textiles carry our heritage — let’s give them a future",
+    "imageWidth": "1200",
+    "imageHeight": "630"
+  },
+  "sideBarSection": {
+    "navLangEN": "AR",
+    "navLangHref": "/ar/",
+    "scrollDownText": "Scroll down",
+    "sideBarSectionNumber": "<li class=\"active\" data-target=\"slide-2\"><a href=\"javaScript:void(0);\" class=\"cursor\">01</a></li><li data-target=\"slide-3\"><a href=\"javaScript:void(0);\" class=\"cursor\">02</a></li><li data-target=\"slide-6\"><a href=\"javaScript:void(0);\" class=\"cursor\">03</a></li><li data-target=\"slide-10\"><a href=\"javaScript:void(0);\" class=\"cursor\">04</a></li><li data-target=\"slide-12\"><a href=\"javaScript:void(0);\" class=\"cursor\">05</a></li>"
+  },
+  "bannerSection": {
+    "heading": "<h1 class='heading1 banner-heading slide-heading__title hedingTitle animate-text-left'>TEXTILES CARRY</h1><h2 class='heading1 banner-heading slide-heading__title hedingTitle animate-text-right mb-space'>OUR HERITAGE</h2>",
+    "subHeading": "<h5 class='banner-heading slide-heading__title hedingTitle animate-text-left'>let’s give them A FUTURE</h5>",
+    "description": "Every garment tells a story. Every fabric holds value. Together, we can keep textiles in use and weave a circular future for the UAE."
+  },
+  "storySection": {
+    "storyHeading": "In the UAE’s past, textiles were made to last",
+    "storyDescription": "Bedouin women wove Sadu patterns from camel and goat hair, creating designs that held both beauty and meaning.<br><br>​Garments were stitched by hand, worn with pride, and patched when they tore.<br><br>When they no longer fit, they were passed on to the next family. Mending and reusing were gestures of care and traditions that kept stories alive.",
+    "storyCta": {
+      "text": "view more",
+      "href": "/",
+      "target": "_self"
+    },
+    "storyContentCircleText": "UAE’S HERITAGE<colored color=\"#E61717\"> OF TEXTILE CARE</colored>"
+  },
+  "messageSection": {
+    "messageHeading": "<h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\">WE ARE AT</h2><h2 class=\"heading1 slide-heading__title dark animate-text-right hedingTitle\">THE CROSSROADS</h2>",
+    "messageDescription": "From a heritage of care to the crossroads we face today, the choice is clear How do we make it happen? This is where the story of Naseej begins",
+    "messageSnakeText": "Textiles carry our heritage Let’s give them a future "
+  },
+  "storyContentSection": {
+    "image": "/assets/images/thumbnails/circle-2.webp",
+    "storyContentHeading": "​Today, the story of textiles in the UAE has changed ",
+    "storyContentDescription1": "By <span>choosing </span>timeless quality and consciously reducing what we acquire.",
+    "storyContentDescription2": "By <span>repairing</span> what is imperfect and reimagining garments in new, creative ways.",
+    "storyContentDescription3": "By <span>donating </span>with purpose and celebrating the character of pre-loved treasures.",
+    "storyContentDescription4": "By <span>upcycling</span> pieces into something new and keeping fibres in motion.",
+    "storyContentIcon2Lottie": "/assets/images/icons/ic-recycle.json",
+    "storyContentIcon3Lottie": "/assets/images/icons/ic-bag.json",
+    "storyContentIcon1": "/assets/images/icons/shirt-icon.svg",
+    "storyContentIcon2": "/assets/images/icons/scissor-icon.svg",
+    "storyContentIcon3": "/assets/images/icons/donate-icon.svg",
+    "storyContentIcon4": "/assets/images/icons/recycle-icon.svg",
+    "storyContentCta": {
+      "text": "view more",
+      "href": "/",
+      "target": "_self"
+    },
+    "storyContentCircleText": "THE CURRENT PATH,<colored color=\"#E61717\"> OUR REALITY TODAY</colored>"
+  },
+  "storyPathOfPossibilitySection": {
+    "image": "/assets/images/thumbnails/circle-3.webp",
+    "storyPathOfPossibilityHeading": "​But it doesn’t have to be this way",
+    "storyPathOfPossibilityDescription1": "",
+    "storyPathOfPossibilityDescription2": "By choosing timeless quality and consciously reducing what we acquire.<br/><br/>By repairing what is imperfect and reimagining garments in new, creative ways.<br/><br/>By donating with purpose and celebrating the character of pre-loved treasures.<br/><br/>By upcycling pieces into something new and keeping fibres in motion.",
+    "storyPathOfPossibilityCta": {
+      "text": "view more",
+      "href": "/",
+      "target": "_self"
+    },
+    "storyPathOfPossibilityIcon1Lottie": "assets/images/icons/ic-global.json",
+    "storyPathOfPossibilityIcon2Lottie": "assets/images/icons/ic-reuse.json",
+    "storyPathOfPossibilityIcon1": "assets/images/icons/ic-global.svg",
+    "storyPathOfPossibilityIcon2": "assets/images/icons/ic-reuse.svg",
+    "storyPathOfPossibilityCircleText": "THE PATH<colored color=\"#E61717\"> OF POSSIBILITY</colored>"
+  },
+  "messageTextileCarrySection": {
+    "messageTextileCarryHeading": "<h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\">WE ARE WEAVING</h2><h2 class=\"heading1 slide-heading__title dark animate-text-right hedingTitle\">A NATIONAL PATH</h2><h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\">TOGETHER</h2>",
+    "messageTextileCarryDescription": "<span>Naseej</span> is the UAE’s national initiative on textile circularity that brings together communities, industry, and government to transform the story of waste into our new fabric of possibility.",
+    "messageTextileCarrySnakeText": "Textiles carry our heritage Let’s give them a future"
+  },
+  "ourVisionSection": {
+    "image" : "/assets/images/thumbnails/circle-4.webp",
+    "ourVisionHeading": "Our Vision",
+    "ourVisionDescription": "<span>Naseej</span> envisions a UAE where individuals and communities lead the shift to textile circularity — embedding sustainable choices into everyday lives.",
+    "ourVisionContentCircleText": "OUR<colored color=\"#E61717\"> VISION</colored>"
+  },
+  "ourMissionSection": {
+    "ourMissionHeading": "Our Mission",
+    "ourMissionDescription": "To accelerate the UAE’s transition to textile circularity by empowering communities through awareness, strategic partnerships, accessible recycling solutions, and supportive policies that establish sustainable practices as the norm.",
+    "ourMissionContentCircleText": "OUR<colored color=\"#E61717\"> MISSION</colored>",
+    "image": "/assets/images/thumbnails/our-misson-image.webp"
+  },
+  "strategyPillarsSection": {
+    "mainHeading": "OUr foundational pillars",
+    "cards": {
+      "item1": {
+        "icon": "assets/images/icons/ic-reuse.svg",
+        "iconLottie": "assets/images/icons/ic-reuse.json",
+        "title": "Collection & recycling",
+        "description": "Enhancing infrastructure for efficient textile collection, sorting, and recycling to prevent landfill waste."
+      },
+      "item2": {
+        "icon": "assets/images/icons/ic-community-image.svg",
+        "iconLottie": "assets/images/icons/ic-community.json",
+        "title": "Community awareness",
+        "description": "Driving a shift in public habits and practices through public campaigns and educational initiatives."
+      },
+      "item3": {
+        "icon": "assets/images/icons/ic-research.svg",
+        "iconLottie": "assets/images/icons/ic-research.json",
+        "title": "market intelligence",
+        "description": "Conducting research on consumer behaviour and market trends to inform strategy."
+      },
+      "item4": {
+        "icon": "assets/images/icons/ic-policy.svg",
+        "icoLottie": "assets/images/icons/ic-policy.json",
+        "title": "Policies & regulations",
+        "description": "Advocating for national targets and incentives to support textile circularity."
+      },
+      "item5": {
+        "icon": "assets/images/icons/ic-briefcase.svg",
+        "iconLottie": "assets/images/icons/ic-briefcase.json",
+        "title": "Circular business",
+        "description": "Supporting startups and SMEs in developing innovative textile solutions."
+      }
+    }
+  },
+  "fabricOfPossibilitySection": {
+    "fabricOfPossibilityHeading": "<h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\">Your Role</h2><h2 class=\"heading1 slide-heading__title dark animate-text-right hedingTitle\">In the Fabric</h2><h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\">Of Possibility</h2>",
+    "fabricOfPossibilityDescription": "Each of us can play a part in turning textiles into lasting value and building a circular economy in the UAE.",
+    "fabricOfPossibilitySnakeText": "Textiles carry our heritage Let’s give them a future "
+  },
+  "stakeholdersSection": {
+    "heading": "Your role in the fabric of possibility",
+    "description": "Each of us can play a part in turning textiles into lasting value and building a circular economy in the UAE.",
+    "cards": {
+      "communities": {
+        "image": "/assets/images/thumbnails/item-1.webp",
+        "alt": "recycle",
+        "title": "<span>For </span> <span>communities</span>",
+        "description": "Extend the life of your garments. Repair, donate, or recycle them with purpose. Every choice keeps a story alive.",
+        "contact": "",
+        "circleText": "For <colored color=\"#E61717\">COMMUNITIES</colored>"
+      },
+      "industries": {
+        "image": "/assets/images/thumbnails/item-2.webp",
+        "alt": "recycle",
+        "title": "<span>For </span> <span>industry</span>",
+        "description": "Lead the circular shift. Join the national coalition, pilot new models, and access practical tools for change.",
+        "contact": "",
+        "circleText": "For <colored color=\"#E61717\">industry</colored>"
+      },
+      "researchersAndMedia": {
+        "image": "/assets/images/thumbnails/item-3.webp",
+        "alt": "recycle",
+        "title": "<span>For </span> <span>Researchers</span>",
+        "description": "Build the blueprint for tomorrow. Explore insights, guide policy, and shape national initiatives.",
+        "contact": "",
+        "circleText": "For <colored color=\"#E61717\">Researchers</colored>"
+      },
+      "media": {
+        "image": "/assets/images/thumbnails/item-4.webp",
+        "alt": "recycle",
+        "title": "<span>For </span> <span>media</span>",
+        "contact": "",
+        "description": "Tell the stories that matter. Share knowledge, spark dialogue, and inspire public understanding.",
+        "circleText": "For <colored color=\"#E61717\">media</colored>"
+      }
+    }
+  },
+  "commitmentSection": {
+    "heading": "<h2 class=\"heading2 slide-heading__title dark hedingTitle\">A National commitment</h2>",
+    "description": "Naseej is powered by a dedicated coalition of the UAE’s leaders, innovators, and community builders.", 
+    "entitiesHeading": "Founding Entities",
+    "partnersHeading": "Partners",
+    "partners": {
+      "staticLogos": {
+        "partner1": {
+          "image": "assets/images/partners/partner1.svg",
+          "alt": "partner"
+        },
+        "partner2": {
+          "image": "assets/images/partners/partner2.svg",
+          "alt": "partner"
+        },
+        "partner3": {
+          "image": "assets/images/partners/partner3.svg",
+          "alt": "partner"
+        }
+      },
+      "marqueeLogosTop": {
+        "logo1": {
+          "image": "assets/images/partners/ic-partner1.svg",
+          "alt": "logo"
+        },
+        "logo2": {
+          "image": "assets/images/partners/ic-partner2.svg",
+          "alt": "logo"
+        },
+        "logo3": {
+          "image": "assets/images/partners/ic-partner3.svg",
+          "alt": "logo"
+        },
+        "logo4": {
+          "image": "assets/images/partners/ic-partner4.svg",
+          "alt": "logo"
+        },
+        "logo5": {
+          "image": "assets/images/partners/ic-partner5.svg",
+          "alt": "logo"
+        },
+        "logo6": {
+          "image": "assets/images/partners/ic-partner6.svg",
+          "alt": "logo"
+        },
+        "logo7": {
+          "image": "assets/images/partners/ic-partner7.svg",
+          "alt": "logo"
+        },
+        "logo8": {
+          "image": "assets/images/partners/ic-partner8.svg",
+          "alt": "logo"
+        }
+      },
+      "marqueeLogosBottom": {
+        "logo9": {
+          "image": "assets/images/partners/ic-partner9.svg",
+          "alt": "logo"
+        },
+        "logo10": {
+          "image": "assets/images/partners/ic-partner10.svg",
+          "alt": "logo"
+        },
+        "logo11": {
+          "image": "assets/images/partners/ic-partner11.svg",
+          "alt": "logo"
+        },
+        "logo12": {
+          "image": "assets/images/partners/ic-partner12.svg",
+          "alt": "logo"
+        },
+        "logo13": {
+          "image": "assets/images/partners/ic-partner13.svg",
+          "alt": "logo"
+        },
+        "logo14": {
+          "image": "assets/images/partners/ic-partner14.svg",
+          "alt": "logo"
+        },
+        "logo15": {
+          "image": "assets/images/partners/ic-partner15.svg",
+          "alt": "logo"
+        },
+        "logo16": {
+          "image": "assets/images/partners/ic-partner16.svg",
+          "alt": "logo"
+        },
+        "logo17": {
+          "image": "assets/images/partners/ic-partner17.svg",
+          "alt": "logo"
+        },
+        "logo18": {
+          "image": "assets/images/partners/ic-partner18.svg",
+          "alt": "logo"
+        }
+      }
+    }
+  },
+  "footer": {
+    "footerText": "Copyright © 2025 by Naseej",
+    "footerJoinText": "Join us in building the UAE's circular textile economy."
+  },
+  "chapterModal1": {
+    "heading": "In the UAE's past, textiles were made to last",
+    "heroImage": {
+      "alt": "modal-image",
+      "desktopSrc": "/assets/images/thumbnails/modal-1-dek-hero.png",
+      "mobileSrc": "/assets/images/thumbnails/modal-1-mob-hero.png"
+    },
+    "description": "Bedouin women wove Sadu patterns from camel and goat hair, creating designs that held both beauty and meaning.",
+    "card1": {
+      "description": "Garments were stitched by hand, worn with pride, and patched when they tore.",
+      "canvasDataTextBrand": "<colored color=\"#E61717\">The UAE's Heritage</colored>",
+      "canvasDataTextWhite": "<colored color=\"#FFFFFF\">The UAE's Heritage</colored>",
+      "image": {
+        "src": "/assets/images/thumbnails/modal-one-card1-image.png",
+        "alt": "modal-image"
+      },
+      "circle": {
+        "canvasDataTextBrand": "<colored color=\"#E61717\">The UAE's Heritage</colored>",
+        "canvasDataTextWhite": "<colored color=\"#FFFFFF\">The UAE's Heritage</colored>"
+      }
+    },
+    "card2": {
+      "description": "When they no longer fit, they were passed on to the next family. Mending and reusing were everyday acts, not trends, but traditions.",
+      "canvasDataTextBrand": "<colored color=\"#E61717\">The UAE's Heritage</colored>",
+      "canvasDataTextWhite": "<colored color=\"#FFFFFF\">The UAE's Heritage</colored>",
+      "image": {
+        "src": "/assets/images/thumbnails/modal-one-card2-image.png",
+        "alt": "modal-image"
+      },
+      "circle": {
+        "class": "circle-two",
+        "canvasDataTextBrand": "<colored color=\"#E61717\">The UAE's Heritage</colored>",
+        "canvasDataTextWhite": "<colored color=\"#FFFFFF\">The UAE's Heritage</colored>"
+      },
+      "isReversed": true
+    }
+  },
+  "chapterModal2": {
+    "heading": "Current Path of Reality",
+    "heroImage": {
+      "alt": "modal-image",
+      "desktopSrc": "/assets/images/thumbnails/modal-2-dek-hero.png",
+      "mobileSrc": "/assets/images/thumbnails/modal-2-mob-hero.png"
+    },
+    "cards": {
+      "card1": {
+        "stats": {
+          "prefix": "~",
+          "number": "500",
+          "postText": "million",
+          "text1": "of textile pieces",
+          "text2": "are consumed annually in the UAE."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-2-dek-hero.png",
+          "mobileSrc": "/assets/images/thumbnails/modal-2-mob-hero.png",
+          "alt": "modal-image"
+        }
+      },
+      "card2": {
+        "stats": {
+          "prefix": "~",
+          "number": "220,000",
+          "text1": "tons of textiles",
+          "text2": "are discarded every year."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/svg/illustation-1.2-dsk.svg",
+          "mobileSrc": "/assets/images/svg/illustation-1.2-mob.svg",
+          "alt": "modal-image"
+        }
+      },
+      "card3": {
+        "isReversed": true,
+        "stats": {
+          "prefix": "",
+          "number": "88",
+          "suffix": "%",
+          "text1": "of discarded textiles",
+          "text2": "end up in landfills, burying their story forever."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/svg/illustration-2.2-dsk.svg",
+          "mobileSrc": "/assets/images/svg/illustation-1.2-mob.svg",
+          "alt": "modal-image"
+        }
+      },
+      "card4": {
+        "isCentered": true,
+        "stats": {
+          "number": "57",
+          "suffix": "%",
+          "text1": "of us",
+          "text2": "believe fashion's impact is positive, unaware of the hidden environmental cost."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/svg/illustration-3.2-dsk.svg",
+          "mobileSrc": "/assets/images/svg/illustration-3.2-mob.svg",
+          "alt": "modal-image"
+        }
+      },
+      "card5": {
+        "isCentered": true,
+        "stats": {
+          "prefixText": "Closets are full, but",
+          "number": "60",
+          "suffix": "%",
+          "text1": "of garments are rarely worn",
+          "text2": "and nearly half are discarded within a year."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/svg/illustration-3.2-dsk.svg",
+          "mobileSrc": "/assets/images/svg/illustration-3.2-mob.svg",
+          "alt": "modal-image"
+        }
+      }
+    }
+  },
+  "chapterModal3": {
+    "heading": "The path of possibility",
+    "heroImage": {
+      "alt": "modal-image",
+      "desktopSrc": "/assets/images/thumbnails/modal-3-desk-hero.png",
+      "mobileSrc": "/assets/images/thumbnails/modal-3-mob-hero.png"
+    },
+    "cards": {
+      "card1": {
+        "title": "Quality",
+        "description": "Pick timeless pieces and consciously reduce what we acquire.",
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-desk-3-1.png",
+          "mobileSrc": "/assets/images/thumbnails/modal-mob-3-1.png",
+          "alt": "modal-image"
+        },
+        "circle": {
+          "class": "circle-one",
+          "canvasDataTextBrand": "<colored color=\"#E61717\">POSSIBILITY THE PATH OF</colored>",
+          "canvasDataTextWhite": "<colored color=\"#FFFFFF\">POSSIBILITY THE PATH OF</colored>"
+        }
+      },
+      "card2": {
+        "title": "Repair",
+        "description": "Fix what is broken and find creative ways to reuse garments.",
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-desk-3-2.jpg",
+          "mobileSrc": "/assets/images/thumbnails/modal-mob-3-2.png",
+          "alt": "modal-image"
+        },
+        "circle": {
+          "class": "circle-left",
+          "canvasDataTextBrand": "<colored color=\"#E61717\">POSSIBILITY THE PATH OF</colored>",
+          "canvasDataTextWhite": "<colored color=\"#FFFFFF\">POSSIBILITY THE PATH OF</colored>"
+        }
+      },
+      "card3": {
+        "title": "To Share",
+        "description": "Donate with purpose and embrace the character of pre-loved treasures.",
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-desk-3-3.png",
+          "mobileSrc": "/assets/images/thumbnails/modal-mob-3-3.png",
+          "alt": "modal-image"
+        },
+        "circle": {
+          "class": "circle-right",
+          "canvasDataTextBrand": "<colored color=\"#E61717\">POSSIBILITY THE PATH OF</colored>",
+          "canvasDataTextWhite": "<colored color=\"#FFFFFF\">POSSIBILITY THE PATH OF</colored>"
+        }
+      },
+      "card4": {
+        "title": "Renewal",
+        "description": "Upcycle pieces into something unique, or recycle fibres into new beginnings.",
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-desk-3-4.png",
+          "mobileSrc": "/assets/images/thumbnails/modal-mob-3-4.png",
+          "alt": "modal-image"
+        },
+        "circle": {
+          "class": "circle-left",
+          "canvasDataTextBrand": "<colored color=\"#E61717\">POSSIBILITY THE PATH OF</colored>",
+          "canvasDataTextWhite": "<colored color=\"#FFFFFF\">POSSIBILITY THE PATH OF</colored>"
+        }
+      }
+    }
+  },
+  "menuItems": {
+    "item1": {
+      "title": "Introduction",
+      "target": "slide-2"
+    },
+    "item2": {
+      "title": "Crossroads",
+      "target": "slide-3"
+    },
+    "item3": {
+      "title": "About Naseej",
+      "target": "slide-6"
+    },
+    "item4": {
+      "title": "Your Role",
+      "target": "slide-10"
+    },
+    "item5": {
+      "title": "Our Partners",
+      "target": "slide-12"
+    }
+  },
+  "errorSection": {
+    "heading1": "this thread",
+    "heading2": "leads nowhere",
+    "message": "Instead, you can explore how we see the world and discover our vision for what comes next",
+    "404Error": "404 Error",
+    "copyRightText": "Copyright © 2025 by Naseej",
+    "button": {
+      "leftLabel": "Explore",
+      "rightLabel": "Naseej"
+    }
+  },
+  "messageSlide": {
+    "heading1": "Today, we are at",
+    "heading2": "the crossroads"
+  },
+  "foundationPillarsSection": {
+    "mainHeading": "Our foundational pillars",
+    "collection_and_recycling": {
+      "title": "Collection & recycling",
+      "description": "Enhancing infrastructure for efficient textile collection, sorting, and recycling to prevent landfill waste.",
+      "image": "/assets/images/thumbnails/slider-with-circle-1.webp",
+      "icon": "/assets/images/icons/ic-recycle-bin.svg"
+    },
+    "community_awareness": {
+      "title": "Community awareness",
+      "description": "Driving a shift in public habits and practices through public campaigns and educational initiatives.",
+      "image": "/assets/images/thumbnails/slider-with-circle-2-new.webp",
+      "icon": "/assets/images/icons/ic-handshake.svg"
+
+    },
+    "market_intelligence": {
+      "title": "Market intelligence",
+      "description": "Conducting research on consumer behaviour and market trends to inform strategy.",
+      "image": "/assets/images/thumbnails/slider-with-circle-3.webp",
+      "icon": "/assets/images/icons/ic-profit-line.svg"
+
+    },
+    "policies_and_regulations": {
+      "title": "Policies & regulations",
+      "description": "Advocating for national targets and incentives to support textile circularity.",
+      "image": "/assets/images/thumbnails/slider-with-circle-4.webp",
+      "icon": "/assets/images/icons/ic-weight-scale.svg"
+
+    },
+    "circular_business": {
+      "title": "Circular business",
+      "description": "Supporting startups and SMEs in developing innovative textile solutions.",
+      "image": "/assets/images/thumbnails/slider-with-circle-5.webp",
+      "icon": "/assets/images/icons/ic-infinity.svg"
+
+    }
+  },
+  "statisticsTab": {
+    "tabs": {
+      "item1": {
+        "label": "CONSUMPTION",
+        "number": "500",
+        "prefix": "~",
+        "postfix": "",
+        "bold_text": "<span>million of textile pieces</span>",
+        "text": "<span>million of textile pieces</span> are consumed annually in the UAE.",
+        "chart_id": "textileChart-1"
+      },
+      "item2": {
+        "label": "IMPACT",
+        "number": "220,000",
+        "bold_text": "<span>tons of textiles</span>",
+        "text": "<span>tons of textiles</span> are discarded every year.",
+        "prefix": "~",
+        "postfix": "",
+        "chart_id": "textileChart-2"
+      },
+      "item3": {
+        "label": "WASTE",
+        "number": "88",
+        "bold_text": "<span>of discarded textiles</span>",
+        "text": "<span>of discarded textiles end up</span> in landfills, burying their story forever.",
+        "prefix": "~",
+        "postfix": "% ",
+        "images": {
+          "desktop": "/assets/images/svg/illustation-1.1-dsk-new.svg",
+          "mobile": "/assets/images/svg/illustation-1.2-mob-new.svg"
+        }
+      },
+      "item4": {
+        "label": "AWARENESS",
+        "number": "57",
+        "bold_text": "<span>of us</span>",
+        "text": "<span>of us  believe fashion's impact is positive,</span> unaware of the hidden environmental cost.",
+        "prefix": "~",
+        "postfix": "%",
+        "images": {
+          "desktop": "/assets/images/svg/illustation-1.1-dsk-new.svg",
+          "mobile": "/assets/images/svg/illustation-1.2-mob-new.svg"
+        }
+      },
+      "item5": {
+        "label": "UTILISATION",
+        "number": "60",
+        "bold_text": "<span>of garments are rarely worn</span>",
+        "text": "<span>of garments are rarely worn</span> and nearly half are discarded within a year.",
+        "prefix": "~",
+        "postfix": "% ",
+        "images": {
+          "desktop": "/assets/images/svg/illustation-1.1-dsk-new.svg",
+          "mobile": "/assets/images/svg/illustation-1.2-mob-new.svg"
+        }
+      }
+    }
+  },
+  "revealCircle": {
+    "thumbnail": "/assets/images/thumbnails/naseej_banner_thumb.webp",
+    "video": "/assets/videos/1920×1080_Full_HD_16x9.mp4",
+    "mobileVideo": "/assets/videos/1080x1920_Vertical_9x16.webm"
+  },
+  "storySlider": {
+    "slide1": "/assets/images/thumbnails/modal-1-mob-hero.webp",
+    "slide2": "/assets/images/thumbnails/modal-one-card1-image.webp",
+    "slide3": "/assets/images/thumbnails/modal-one-card2-image.webp"
+  }
+}

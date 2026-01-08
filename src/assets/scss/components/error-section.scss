@@ -1,0 +1,336 @@
+@use '../globals/variables.scss' as *;
+
+.error-section-wrapper {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    @media #{$vpTablet991} {
+        justify-content: flex-end;
+        align-items: center;
+        height: 100dvh;
+    }
+}
+
+.error-section {
+    position: relative;
+    width: 100dvw;
+    display: flex;
+    align-items: center;
+    // height: 100svh;
+    // border: 1px solid red;
+
+    @media #{$vpTablet991} {
+        align-items: flex-end;
+        flex: 1;
+    }
+
+    .error-section-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        // min-height: 43.75rem;
+        height: 100vh;
+        gap: 3rem;
+        position: relative;
+
+        @media #{$vpTablet991} {
+            height: unset;
+            justify-content: center;
+            height: 100%;
+            gap: 2rem;
+        }
+
+        @media #{$vpMobile600} {
+            justify-content: flex-end;
+        }
+
+        .error-slide-wrapper {
+            position: relative;
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 120%;
+                background-color: $white;
+                display: block;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                z-index: -3;
+            }
+
+            .slide-heading {
+                width: fit-content;
+                display: flex;
+                flex-direction: column;
+                min-width: 65.75rem;
+                z-index: 2;
+                gap: 0.3em;
+                /*rtl:raw: gap:unset;*/
+                /*rtl:raw: min-width:46.625rem;*/
+
+
+                @media #{$vpTablet991} {
+                    // max-width: 40rem;
+                    min-width: unset;
+                    width: 100%;
+                    /*rtl:raw: min-width: unset;*/
+                }
+
+                @media #{$vpMobile600} {
+                    min-width: 100vw;
+                    max-width: unset;
+                    width: 100vw;
+                }
+
+                &__title {
+                    margin: 0;
+                    // text-align: left;
+                    color: $white;
+                    margin-top: -1rem;
+                    text-transform: uppercase;
+                    overflow: hidden;
+
+                    @media #{$vpTablet991} {
+                        margin-top: -0.3rem;
+                        text-align: center;
+                    }
+
+                    span {
+                        opacity: 0;
+                    }
+
+                    &.dark {
+                        color: $primaryColor;
+
+
+                        @media #{$vpMobile600} {
+                            text-align: center !important;
+                            white-space: nowrap;
+                        }
+
+
+                        span {
+                            // background-color:  $white;
+                            display: inline-block !important;
+                        }
+
+                    }
+                }
+
+                &__title:nth-of-type(1) {
+                    margin-top: 0;
+
+                    @media #{$vpTablet991} {
+                        margin-top: 0rem;
+                    }
+                }
+
+                // .animate-text-left {
+                //     span {
+                //         transform: translateX(-100%);
+                //         display: inline-block;
+                //         animation: slideLeftIn 0.8s ease-out 0.5s forwards;
+                //     }
+                // }
+
+                // .animate-text-right {
+                //     span {
+                //         transform: translateX(100%);
+                //         display: inline-block;
+                //         animation: slideRightIn 0.8s ease-out 0.5s forwards;
+                //     }
+                // }
+
+                // @keyframes slideLeftIn {
+                //     from {
+                //         transform: translateX(-100%);
+                //     }
+                //     to {
+                //         transform: translateX(0);
+                //     }
+                // }
+
+                // @keyframes slideRightIn {
+                //     from {
+                //         transform: translateX(100%);
+                //     }
+                //     to {
+                //         transform: translateX(0);
+                //     }
+                // }
+            }
+
+        }
+
+        .message-content-wrapper {
+            max-width: 23rem;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            opacity: 0;
+            // overflow: hidden;
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 150%;
+                background-color: $white;
+                display: block;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                z-index: -3;
+            }
+
+            @media #{$vpTablet991} {
+                max-width: 32rem !important;
+                z-index: -1;
+            }
+
+            @media #{$vpMobile600} {
+                max-width: 100% !important;
+            }
+
+            &__text {
+                transform: translateY(100%);
+                color: $secondaryColor;
+                line-height: 150%;
+                // animation: slideUp 0.8s ease-out 0.5s forwards;
+            }
+
+            // @keyframes slideUp {
+            //     from {
+            //         transform: translateY(100%);
+            //     }
+            //     to {
+            //         transform: translateY(0);
+            //     }
+            // }
+        }
+
+        .error__btn {
+            color: $brand;
+            opacity: 0;
+            margin-bottom: 8.78rem;
+            padding: 0;
+            display: flex;
+            gap: 0.75rem;
+            align-items: center;
+            width: fit-content;
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            text-transform: uppercase;
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 160%;
+                background-color: $white;
+                display: block;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                z-index: -3;
+            }
+
+            @media #{$vpTablet991} {
+                // background-color: $white;
+                gap: 1rem;
+                position: relative;
+                justify-content: center;
+                // margin-bottom: 0;
+            }
+
+            @media #{$vpMobile600} {
+                margin-bottom: 7rem;
+            }
+
+            .error__btn-title {
+                color: $brand;
+                text-transform: uppercase;
+                line-height: 150%;
+                margin-bottom: -0.1rem;
+            }
+
+            .error__btn-icon-wrapper {
+                display: flex;
+                /*rtl:raw: padding-top: 0.2em;*/
+            }
+
+            &__btn-icon-wrapper {
+                width: 0.66667rem;
+                height: 2rem;
+                aspect-ratio: 10/9;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                overflow: hidden;
+
+                @media #{$vpTablet991} {
+                    width: 0.5rem;
+                    height: 1.5rem;
+                }
+            }
+
+
+            &__btn-icon {
+                height: 100%;
+                width: 100%;
+                // aspect-ratio: 10/9;
+                padding: 0.25rem 0;
+
+                @media #{$vpTablet991} {
+                    padding: 0.25rem 0;
+                }
+            }
+        }
+
+
+    }
+}
+
+
+
+.error-circle {
+
+    height: 24rem;
+    overflow: hidden;
+
+    @media #{$vpMobile600} {
+        height: 12.5rem;
+    }
+
+    .motion-circle {
+        position: relative;
+
+        &.bottom-half {
+            width: 50rem;
+            height: 50rem;
+            opacity: 1;
+            left: 50%;
+            transform: translateX(-50%);
+            top: 0;
+
+            @media #{$vpMobile600} {
+                height: 25rem;
+                width: 25rem;
+            }
+        }
+    }
+}
+
+.error-section {
+    .svg-wraps {
+        top: 0;
+        display: block;
+    }
+}

@@ -1,0 +1,380 @@
+@use '../globals/variables.scss' as *;
+
+.vision-mission {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9;
+    display: none;
+
+    @media #{$vpTablet991} {
+        display: block;
+    }
+
+    .container {
+        @media #{$vpTablet991} {
+            padding: 0 !important;
+        }
+    }
+}
+
+.vision-mission__container {
+    background: transparent;
+    display: flex;
+    width: 100%;
+    // border: 1px solid blue;
+
+    @media #{$vpTablet991} {
+        flex-direction: column;
+        min-height: 100%;
+    }
+}
+
+.vision-mission__tabs {
+    flex: 0 0 19.9375rem;
+    max-width: 19.9375rem;
+    padding: 2.5rem;
+    background: transparent;
+
+    @media #{$vpTablet991} {
+        background: white;
+        max-width: 100%;
+        flex: 0 0 100%;
+        padding-block: 0;
+        padding-inline: 0;
+        // padding-inline: 6.12rem;
+    }
+
+    // @media #{$vpMobile600} {
+    //     padding-left: 2rem;
+    //     padding-right: 2rem;
+    // }
+
+    .vision-mission__tabs__wrapper {
+        background: transparent;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+
+        @media #{$vpTablet991} {
+            scroll-behavior: smooth;
+
+            overflow-x: auto;
+            overscroll-behavior-x: contain;
+            touch-action: pan-x !important;
+            -webkit-overflow-scrolling: touch; // smooth inertial scrolling on iOS`
+            justify-content: flex-start; // ensure items align at start
+            align-items: flex-end;
+            flex-wrap: nowrap; // prevent wrapping -> allow horizontal overflow
+            // gap: 2rem;
+            flex-direction: row;
+
+            margin-bottom: 2.67rem;
+
+            /* Hide scrollbar (Chrome, Edge, Safari) */
+            &::-webkit-scrollbar {
+                display: none;
+            }
+
+            /* Hide scrollbar (Firefox) */
+            scrollbar-width: none;
+
+            /* Hide scrollbar (IE / old Edge) */
+            -ms-overflow-style: none;
+        }
+
+
+        .tab-btn {
+            background: none;
+            border: none;
+            text-align: left;
+            padding: 0;
+            margin: 0;
+            margin-bottom: 2rem;
+            cursor: pointer;
+            transition: color 0.35s ease;
+            position: relative;
+            color: $BrandGrey;
+            font-weight: 700;
+            white-space: nowrap;
+
+            @media #{$vpTablet991} {
+                margin-bottom: 0;
+                flex: 1;
+                min-width: max-content; // ensure the label stays on one line
+                white-space: nowrap;
+                scroll-snap-align: start; // works with scroll-snap-type
+
+            }
+
+            &:first-child {
+                @media #{$vpTablet991} {
+                    padding-left: 6.12rem;
+                }
+
+                @media #{$vpMobile600} {
+                    padding-left: 2rem;
+                }
+
+                .tab-btn-text {
+
+                    padding-inline-start: 0;
+
+                }
+            }
+
+            &:last-child {
+                margin-bottom: 0;
+
+                @media #{$vpTablet991} {
+                    padding-right: 6.12rem;
+                }
+
+                @media #{$vpMobile600} {
+                    padding-right: 2rem;
+                }
+
+                .tab-btn-text {
+                    padding-inline-end: 0;
+                }
+            }
+
+            &.active {
+                color: $charlestonGreen;
+
+                .progress-bar {
+                    span {
+                        width: 100% !important;
+                        opacity: 1;
+                    }
+                }
+            }
+
+            &:hover {
+                @media #{$vpMinTablet1200} {
+                    color: $charlestonGreen;
+                }
+            }
+
+            .progress-bar {
+                position: relative;
+                display: block;
+                height: 1px;
+                width: 100%;
+                background: $BrandLightGrey;
+                // overflow: hidden;
+
+                span {
+                    position: relative;
+                    bottom: 2px;
+                    background: $primaryColor;
+                    display: block;
+                    height: 3px;
+                    width: 0%;
+                    opacity: 0.2;
+                    transition: width 0.6s ease, opacity 0.3s ease;
+                }
+            }
+
+            .tab-btn-text {
+                font-weight: 700;
+                padding: 1rem 0;
+                text-transform: uppercase;
+                width: 100%;
+                text-align: center;
+                display: block;
+
+                @media #{$vpTablet991} {
+                    margin-top: 4rem;
+                    padding-top: 0;
+                    padding-bottom: 2rem;
+                    padding-inline: 1rem;
+                }
+            }
+        }
+    }
+}
+
+.vision-mission__content {
+    overflow: hidden;
+
+    margin-left: 1.5rem;
+    position: relative;
+    // border: 1px solid green;
+    background: white;
+    width: 100%;
+
+    @media #{$vpTablet991} {
+        margin-left: 0;
+        height: 100% !important;
+        flex: 1;
+        padding-left: 6.12rem !important;
+        padding-right: 6.12rem !important;
+    }
+
+    @media #{$vpMobile600} {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+
+    .swiper-wrapper {
+        display: flex;
+
+        @media #{$vpTablet991} {
+            height: 100%;
+        }
+
+        .swiper-slide {
+            width: auto !important;
+            height: auto !important;
+        }
+    }
+
+    .tab-content {
+        margin: 2.5rem;
+        z-index: 1;
+        visibility: hidden;
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: opacity 0.6s ease;
+
+        @media #{$vpTablet991} {
+            margin: 0;
+            opacity: 1;
+            position: relative;
+            visibility: visible;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+        }
+
+        &.active {
+            opacity: 1;
+            position: relative;
+            z-index: 9;
+            visibility: visible;
+        }
+
+        &:last-child {
+            .tab-content-text {
+                padding-right: 0;
+            }
+        }
+
+        .tab-content-text {
+            margin-top: 2.67rem;
+            max-width: 26.66667rem;
+            width: 100%;
+            padding-right: 2rem;
+
+        }
+
+        .tab-content-image {
+            position: relative;
+        }
+
+        #tab-vision {
+            padding-block: 2.9rem;
+            padding-inline: 1.67rem;
+            position: relative;
+            opacity: 1;
+            width: calc(23.33333rem + 3.34rem);
+            height: calc(23.33333rem + 5.8rem);
+            flex-shrink: 0;
+            aspect-ratio: 1/1;
+            left: 50%;
+            top: 0;
+            transform: translateX(-50%) !important;
+        }
+
+        .curved-text {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            // width: 25.33333rem;
+            // height: 25.33333rem;
+            // flex-shrink: 0;
+            // aspect-ratio: 1/1;
+        }
+
+        .arrow {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 27.1733rem;
+            height: 24.69333rem;
+            flex-shrink: 0;
+            /*rtl:raw: right: auto;*/
+            /*rtl:raw: left: 50%;*/
+            /*rtl:raw: transform: translate(-50%, -50%) scaleX(-1);*/
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+
+            @media #{$vpMobile600} {
+                width: 27.16667rem;
+            }
+
+            img,
+            svg {
+                width: 100%;
+                height: 100%;
+                // object-fit: contain;
+            }
+        }
+
+        &:first-child {
+            .arrow {
+                background-image: url('/assets/images/svg/arrow-start.svg') !important;
+                top: 58% !important;
+            }
+        }
+
+        &:nth-child(even) {
+            .arrow {
+                background-image: url('/assets/images/svg/arrow-top.svg');
+                top: 28%;
+            }
+        }
+
+        &:nth-child(odd) {
+            .arrow {
+                background-image: url('/assets/images/svg/arrow-bottom.svg');
+                top: 73%;
+            }
+        }
+
+        &:last-child {
+            .arrow {
+                background-image: url('/assets/images/svg/arrow-last-new.svg') !important;
+                top: 43% !important;
+            }
+        }
+
+    }
+
+}
+
+
+.your-role {
+    .vision-mission__content {
+        .tab-content {
+            @media #{$vpTablet991} {
+                justify-content: space-between;
+            }
+
+            .tab-content-text {
+                margin-top: 0;
+                margin-bottom: 2.67rem;
+            }
+        }
+    }
+}

@@ -1,0 +1,64 @@
+<div class="error-section-wrapper">
+  <div class="error-section">
+
+    <div class="svg-wraps" id="line-6">
+
+      <span class="red-line-wrap">
+        <span class="red-line"></span>
+      </span>
+      <div class="st-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" version="1.1" viewBox="0 0 114 83">
+          <path class="st1" d="M57,0v82M57,82c-1.7-19-15.4-57-57-57M57,82c1.7-19,15.4-57,57-57" fill="none"
+            stroke="#FB1D1D" stroke-width="14" />
+        </svg>
+      </div>
+
+    </div>
+
+
+    <div class="snake-wrapper">
+      <canvas class="snakeCanvas" width="2300" height="900" data-text="{{messageSection.messageSnakeText}}"></canvas>
+    </div>
+
+    <div class="container">
+
+      <div class="error-section-wrapper">
+
+        <div class="error-slide-wrapper">
+          <div class="slide-heading two-layer-text two-layer-text">
+            <h1 class="heading1 slide-heading__title dark animate-text-left hedingTitle"><span>{{errorSection.heading1}}</span></h1>
+            <h1 class="heading1 slide-heading__title dark animate-text-right hedingTitle"><span>{{errorSection.heading2}}</span>
+            </h1>
+          </div>
+        </div>
+
+        <div class="message-content-wrapper" data-animate="fade-up" data-delay="0.5" data-duration="1.5">
+          <p class="message-content__text body1">
+            {{errorSection.message}}
+          </p>
+        </div>
+
+        <button class="open-btn error__btn hover-animate-btn--y" data-start="top 100%" data-animate="fade-up" data-delay="0.5" data-duration="1.5">
+          <p class="error__btn-title btn-label">{{errorSection.button.leftLabel}}</p>
+          <div class="error__btn-icon-wrapper">
+            <img src="/assets/images/icons/error-arrow.svg" alt="arrow" class="js-tosvg error__btn-icon">
+          </div>
+          <p class="error__btn-title btn-label">{{errorSection.button.rightLabel}}</p>
+        </button>
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <div class="error-circle">
+    <div class="motion-circle bottom-half" id="error-circle-1">
+      <div class="motion-circle__wrapper">
+        <div class="motion-circle__content">
+          <img src="/assets/images/thumbnails/circle-one.webp" alt="circle-one" loading="lazy" class="motion-circle__background">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

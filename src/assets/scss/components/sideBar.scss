@@ -1,0 +1,357 @@
+@use "../globals/variables.scss" as *;
+
+.siderBar--wrapper {
+  opacity: 0;
+  width: 3.5rem;
+  height: 100svh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+
+  @media #{$vpTablet991} {
+    z-index: 99;
+  }
+
+  &:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100dvh;
+    background: $white;
+    border-left: 2px solid rgba(239, 236, 223, 0.4);
+    z-index: -1;
+  }
+
+  @media #{$vpMobile600} {
+    display: none;
+  }
+
+  .postBox {
+    height: 100%;
+    position: relative;
+
+    .patternBox {
+      position: relative;
+      height: 100svh;
+
+      // img {
+      //   height: 100svh;
+      //   // opacity: 0;
+      // }
+      .scrollBox {
+        position: absolute;
+        right: -3.4rem;
+        top: 50%;
+        transform: rotate(-90deg) translateY(-50%);
+        cursor: pointer;
+        /*rtl:raw: 
+                            left: -2.4rem;
+    transform: rotate(90deg) translateY(-50%);
+                    */
+
+        .postBox {
+          display: flex;
+          align-items: center;
+
+          .ic-mouse {
+            width: 1.5rem;
+            height: 1.5rem;
+            transform: rotate(90deg);
+            margin-right: 1.04rem;
+          }
+
+          .cursor {
+            font-family: $secondaryFont;
+            color: #0c0608;
+            white-space: nowrap;
+            text-transform: uppercase;
+          }
+        }
+      }
+
+      .page-listing {
+        position: absolute;
+        top: 50%;
+        visibility: hidden;
+        opacity: 0;
+        // transform: translateY(-50%);
+        right: 1.5rem;
+
+        // display: none;
+        ul {
+          li {
+            padding-block: 1rem;
+            border-bottom: 2px solid rgba(239, 236, 223, 0.4);
+
+            &:last-child {
+              border-bottom: 0;
+            }
+
+            a {
+              color: $primaryColor;
+              transition: color 0.5s ease;
+            }
+
+            &.active {
+              a {
+                color: $brand;
+              }
+            }
+          }
+        }
+      }
+
+      .lang-switch {
+        position: absolute;
+        right: 1.2rem;
+        top: 1.5rem;
+        cursor: pointer;
+
+        a {
+          color: $primaryColor;
+
+          .cursor {
+            color: $primaryColor;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+  }
+}
+
+.header--wrapper {
+  position: fixed;
+  top: 0;
+  z-index: 4;
+  // width: 100%;
+  width: fit-content;
+
+  @media #{$vpMobile600} {
+    width: 100%;
+  }
+
+  .container {
+    padding-inline: 2.5rem;
+
+    @media #{$vpMobile600} {
+      padding-inline: 1.33rem;
+    }
+  }
+
+  .header-box {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+
+    @media #{$vpMobile600} {
+      &::after {
+        position: absolute;
+        background: white;
+        content: '';
+        width: calc(100% + 4rem);
+        height: 6.66rem;
+        top: 0;
+        left: -2rem;
+        z-index: -1;
+        opacity: var(--after-opacity, 0);
+        transition: opacity 0.5s ease;
+        transition-delay: 0.5s;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16);
+      }
+    }
+  }
+
+  .logo-box {
+    width: fit-content;
+
+    svg,
+    img {
+      width: 4.5rem;
+      height: 7.87rem;
+
+      @media #{$vpMobile600} {
+        width: 5.33333rem;
+        height: 9.33333rem;
+      }
+    }
+  }
+
+  .menu-box {
+    display: flex;
+    align-items: center;
+    gap: 2.67rem;
+    height: fit-content;
+    margin-top: 1.33rem;
+
+    @media #{$vpMinMobile600} {
+      pointer-events: none;
+      display: none;
+    }
+
+    .culture {
+      color: white;
+      padding-block: 1rem;
+      transition: all 0.5s ease;
+      transition-delay: 0.5s;
+
+
+      &.opend {
+        color: $secondaryColor !important;
+      }
+    }
+
+    .menu-toggle {
+      background-color: $white;
+      width: 4rem;
+      height: 4rem;
+      padding: 1rem;
+      border-radius: 416.66667rem;
+      position: relative;
+      cursor: pointer;
+
+      svg {
+        width: 2rem;
+        height: 2rem;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        transition: all 0.5s ease;
+      }
+
+      .open {
+        opacity: 0;
+      }
+
+      &.opend {
+        .open {
+          opacity: 1;
+        }
+
+        .close {
+          opacity: 0;
+        }
+      }
+    }
+  }
+
+  .menu-items {
+    padding: 3.17rem 0rem 2rem 0rem;
+    display: none;
+
+    @media #{$vpMinMobile600} {
+      pointer-events: none;
+      display: none;
+    }
+
+    .item {
+      padding: 1.16667rem 0;
+      color: $primaryColor;
+      gap: 2.67rem;
+      border-bottom: 1px solid $beije;
+      opacity: 0;
+      display: flex;
+
+      &:last-of-type {
+        border-bottom: none;
+      }
+
+      span {
+        display: block;
+
+        &:nth-of-type(2) {
+          font-weight: 400;
+        }
+      }
+
+      &.active {
+        color: $brand;
+      }
+    }
+  }
+
+  .menu-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(-100%, 100%);
+    width: 100vw;
+    height: 100%;
+    background-color: $white;
+    z-index: -1;
+    opacity: 0;
+    top: -120%;
+  }
+
+  // &:has(.menu-toggle.opend) {
+  //   &::after {
+  //     content: "";
+  //     width: 100vw;
+  //     height: 100svh;
+  //     position: absolute;
+  //     background-color: transparent;
+  //   }
+  // }
+}
+
+.fotter {
+  position: relative;
+  width: 100%;
+  background: #f8f8f9;
+  padding: 1.375rem 6rem;
+  display: flex;
+  justify-content: space-between;
+
+  @media #{$vpTablet991} {
+    padding: 2rem 5.33rem;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+  }
+
+  .sec-joinus {
+    .postBox {
+      display: flex;
+      gap: 0.75rem;
+
+      @media #{$vpTablet991} {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.33rem;
+      }
+
+      .description {
+        color: $charlestonGreen;
+
+        @media #{$vpTablet991} {
+          text-align: center;
+        }
+      }
+
+      .link {
+        color: $Grey3;
+        text-decoration: underline !important;
+        transition: color 0.5s ease;
+
+        @media #{$vpMinTablet1200} {
+          &:hover {
+            color: $secondaryColor;
+          }
+        }
+      }
+    }
+  }
+
+  .sec-copyright {
+    .postBox {
+      .text {
+        text-align: right;
+        color: $charlestonGreen;
+      }
+    }
+  }
+}

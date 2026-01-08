@@ -1,0 +1,744 @@
+@use '../globals/variables.scss' as *;
+
+
+.chp-modal {
+    position: fixed;
+    // inset: 0;
+    top: 0;
+    right: 3rem;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.6s ease;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 9999;
+    overflow: hidden;
+
+    @media #{$vpTablet991} {
+        inset: 0 !important;
+    }
+
+    &.show {
+        opacity: 1;
+        pointer-events: all;
+
+        .modal-content {
+            transform: translateX(0) !important; // slide in
+            opacity: 1;
+            // transition: all 0.4s ease;
+        }
+    }
+
+    .modal-content {
+        position: relative;
+        overflow: hidden;
+        /* Let Lenis handle */
+        touch-action: pan-y;
+        /* Allow vertical swipe */
+        -webkit-overflow-scrolling: touch;
+        /* iOS momentum */
+        overscroll-behavior: contain;
+        /* Prevent bounce */
+
+        // scroll-behavior: smooth;
+        background: $Grey8;
+        width: 62.5rem;
+        height: 100svh;
+        position: relative;
+        padding-inline: 3.5rem;
+        transform: translateX(100%);
+        // opacity: 0;
+        transition: all 0.6s ease;
+        // box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
+
+        @media #{$vpTablet991} {
+            width: 100%;
+            padding-inline: 2rem;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 1.5rem;
+            right: 1.5rem;
+            background: none;
+            border: none;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            width: 1.5rem;
+            height: 1.5rem;
+
+            @media #{$vpTablet991} {
+                width: 2rem;
+                height: 2rem;
+                flex-shrink: 0;
+            }
+
+            @media #{$vpMobile600} {
+                top: 1.3rem;
+                right: 1.3rem;
+            }
+
+            img,
+            svg {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+
+
+    .chp-modal-1 {
+        padding-top: 4.5rem;
+        padding-bottom: 7.25rem;
+
+        @media #{$vpMobile600} {
+            padding-top: 3.33rem;
+            padding-bottom: 10.67rem;
+        }
+
+        .modal-heading {
+            color: $secondaryColor;
+            text-transform: uppercase;
+            max-width: 27rem;
+            padding-bottom: 2.75rem;
+
+            @media #{$vpMobile600} {
+                max-width: 26.0833rem;
+                padding-bottom: 2.67rem;
+            }
+        }
+
+        .modal-image-wrapper {
+            margin-bottom: 1rem;
+            width: 100%;
+            height: 31.25rem;
+            overflow: hidden;
+
+            @media #{$vpMobile600} {
+                margin-bottom: 2.58rem;
+                height: 28.75rem;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .modal-description {
+            max-width: 24rem;
+            color: $primaryColor;
+
+            @media #{$vpMobile600} {
+                max-width: 100%;
+            }
+        }
+
+        .modal-card {
+            .card-item {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: flex-end;
+                padding-top: 5rem;
+                gap: 1.5rem;
+
+                @media #{$vpMobile600} {
+                    gap: 2.67rem;
+                    padding-top: 11.67rem;
+                    flex-direction: column-reverse;
+                    justify-content: flex-start;
+                }
+
+                .card-description {
+                    max-width: 17.5rem;
+                    color: $primaryColor;
+
+                    @media #{$vpMobile600} {
+                        max-width: 100%;
+                    }
+                }
+
+                .card-image-wrapper {
+                    position: relative;
+                    height: 33.75rem;
+                    width: 27rem;
+                    overflow: hidden;
+
+                    @media #{$vpMobile600} {
+                        height: 28.75rem;
+                        width: 100%;
+                    }
+
+                    .card-image {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .circle-one {
+                    position: absolute;
+                    top: 5.47rem;
+                    right: 20.35rem;
+
+                    @media #{$vpMobile600} {
+                        left: auto;
+                        top: 4.6rem;
+                        right: 1rem;
+                        transform: rotate(90deg);
+                    }
+                }
+
+                .circle-two {
+                    position: absolute;
+                    top: 5.47rem;
+                    left: 20.35rem;
+                    transform: rotate(180deg);
+
+                    @media #{$vpMobile600} {
+                        right: auto;
+                        top: 4.6rem;
+                        left: 1rem;
+                        transform: rotate(90deg);
+                    }
+                }
+
+                &.reverse {
+                    flex-direction: row-reverse;
+                    justify-content: flex-end;
+
+                    @media #{$vpMobile600} {
+                        flex-direction: column-reverse;
+                        justify-content: flex-start;
+                    }
+                }
+            }
+        }
+    }
+
+    .chp-modal-2 {
+        padding-top: 4.5rem;
+
+        @media #{$vpMobile600} {
+            padding-top: 3.33rem;
+        }
+
+        .modal-heading {
+            color: $secondaryColor;
+            text-transform: uppercase;
+            max-width: 27rem;
+            padding-bottom: 2.75rem;
+
+            @media #{$vpMobile600} {
+                max-width: 26.24.58333rem;
+                padding-bottom: 2.67rem;
+            }
+        }
+
+        .modal-image-wrapper {
+            margin-bottom: 5rem;
+            width: 100%;
+            height: 31.25rem;
+            overflow: hidden;
+
+            @media #{$vpMobile600} {
+                margin-bottom: 3.33rem;
+                height: 28.75rem;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .modal-description {
+            max-width: 24rem;
+            color: $primaryColor;
+
+            @media #{$vpMobile600} {
+                max-width: 100%;
+            }
+        }
+
+        .modal-card {
+            .card-item {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                padding-bottom: 11.25rem;
+                gap: 3rem;
+
+                @media #{$vpMobile600} {
+                    gap: 3.33rem;
+                    padding-bottom: 6.79rem;
+                }
+
+                &:last-child {
+                    padding-bottom: 0;
+                    margin-bottom: 10.81rem !important;
+
+                    @media #{$vpMobile600} {
+                        margin-bottom: 9.62rem !important;
+                    }
+                }
+
+                .stats {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: row;
+                    gap: 1.5rem;
+
+                    @media #{$vpMobile600} {
+                        gap: 0;
+                        flex-direction: column;
+                        align-items: flex-start;
+                    }
+
+                    .stat-number-wrap {
+                        display: flex;
+                        flex-direction: row;
+                        direction: ltr;
+                        &.reverse {
+                            /*rtl:raw:direction: ltr;*/
+                        }
+                        span {
+                            white-space: nowrap;
+                            color: $primaryColor;
+                            font-weight: 700;
+                        }
+
+                        .stat-number {
+                            unicode-bidi: plaintext;
+                        }
+
+                        .post-text {
+                            margin-left: 1rem;
+                        }
+                    }
+
+                    .stat-text {
+                        .stat-text-1 {
+                            font-weight: 700;
+                            color: $secondaryColor;
+                        }
+
+                        .stat-text-2 {
+                            color: $charlestonGreen;
+                        }
+
+                        span {
+                            color: $brand;
+                        }
+                    }
+
+                }
+
+                .card-image-wrapper {
+                    height: 33.875rem;
+                    width: 100%;
+
+                    @media #{$vpMobile600} {
+                        height: 37.333rem;
+                    }
+
+                    svg {
+                        path {
+                            // fill: #D6CEC4 !important;
+                            transition: all 1s ease;
+                        }
+                    }
+
+                    .card-image {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+
+
+
+                        &.desk {
+                            display: block;
+
+                            @media #{$vpMobile600} {
+                                display: none;
+                            }
+                        }
+
+                        &.mob {
+                            display: none;
+
+                            @media #{$vpMobile600} {
+                                display: block;
+                            }
+                        }
+                    }
+                }
+
+                &.row-reverse {
+                    flex-direction: row-reverse;
+                    align-items: flex-start;
+                    justify-content: flex-end;
+                    gap: 1.62rem;
+
+                    @media #{$vpMobile600} {
+                        flex-direction: column;
+                        gap: 3.33rem;
+                    }
+
+                    .stats {
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: unset;
+
+                        @media #{$vpMobile600} {
+                            flex-direction: column;
+                            align-items: flex-start;
+                        }
+                    }
+
+                    .card-image-wrapper {
+                        width: 26.875rem;
+                        height: 37rem;
+
+                        @media #{$vpMobile600} {
+                            width: 100%;
+                            height: 37.333rem;
+                        }
+
+                        .card-image {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+
+                            &.desk {
+                                display: block;
+
+                                @media #{$vpMobile600} {
+                                    display: none;
+                                }
+                            }
+
+                            &.mob {
+                                display: none;
+
+                                @media #{$vpMobile600} {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &.centered {
+                    position: relative;
+                    // flex-direction: row-reverse;
+                    align-items: center;
+                    justify-content: center;
+                    gap: unset;
+                    height: 52.5rem;
+                    width: 100%;
+                    // aspect-ratio: 1/1;
+                    padding-bottom: 0;
+                    margin-bottom: 8rem;
+
+
+                    @media #{$vpMobile600} {
+                        margin-top: calc(12.63rem - 6.79rem);
+                        margin-bottom: 18.42rem;
+                        height: 54.16667rem;
+                        // width: 54.16667rem;
+                    }
+
+                    .stats {
+                        flex-direction: column;
+                        align-items: center;
+                        gap: 0.75rem;
+                        text-align: center;
+                        max-width: 17.75rem;
+
+                        @media #{$vpMobile600} {
+                            gap: 1rem;
+                        }
+
+                        .per-text {
+                            color: $primaryColor;
+                            font-weight: 700;
+                        }
+                    }
+
+                    .card-image-wrapper {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transform: translate(-50%, -50%);
+                        width: 100%;
+                        height: 52.5rem;
+
+                        @media #{$vpMobile600} {
+                            height: 54.16667rem;
+                            width: 54.16667rem;
+                            flex-shrink: 0;
+                        }
+
+                        .card-image {
+                            object-fit: cover;
+                            position: absolute;
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+
+                            // &:nth-of-type(1){
+                            //     width: 31.64069rem;
+                            //     height: 31.63544rem;
+                            //     opacity: 1 !important;
+
+                            //     path{
+                            //         transition: fill 2s ease;
+                            //     }
+                            // }
+
+                            &:nth-of-type(2) {
+                                width: 36.19413rem;
+                                height: 36.19231rem;
+                            }
+
+                            &:nth-of-type(3) {
+                                width: 41.05569rem;
+                                height: 41.05069rem;
+                            }
+
+                            &:nth-of-type(4) {
+                                width: 46.47888rem;
+                                height: 46.474rem;
+                            }
+
+                            &:nth-of-type(5) {
+                                width: 52.50356rem;
+                                height: 52.49994rem;
+                            }
+
+                            &.desk {
+                                display: block;
+
+                                @media #{$vpMobile600} {
+                                    display: none;
+                                }
+                            }
+
+                            &.mob {
+                                display: none;
+
+                                @media #{$vpMobile600} {
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    .chp-modal-3 {
+        // modal 3 css/
+        padding-top: 4.5rem;
+
+        // padding-bottom: 3.19rem;
+
+        @media #{$vpTablet991} {
+            padding-top: 3.33rem;
+            padding-bottom: 7.5rem;
+        }
+
+        .modal-heading {
+            color: $secondaryColor;
+            text-transform: uppercase;
+            max-width: 27rem;
+            margin-bottom: 2.75rem;
+
+            @media #{$vpTablet991} {
+                max-width: 24.58333rem;
+                margin-bottom: 2.67rem;
+            }
+        }
+
+        .modal-image-wrapper {
+            width: 100%;
+            height: 31.25rem;
+            overflow: hidden;
+            margin-bottom: 5rem;
+            overflow: hidden;
+
+            @media #{$vpTablet991} {
+                margin-bottom: 0;
+                height: 28.75rem;
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .modal-card {
+            position: relative;
+            height: 40.5rem;
+            overflow: hidden;
+            // height: 100vh; 
+
+            @media #{$vpTablet991} {
+                height: auto;
+            }
+
+            .circle-outer {
+                z-index: 999;
+                position: absolute;
+                top: 5.47rem;
+                right: 20.4rem;
+
+                @media #{$vpTablet991} {
+                    display: none;
+                }
+            }
+
+
+            .card-item {
+                position: relative;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 0;
+                gap: 1.5rem;
+                will-change: transform;
+
+                @media #{$vpTablet991} {
+                    gap: 2.67rem;
+                    padding-top: 11.67rem;
+                    flex-direction: column-reverse;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+
+                    &:first-child {
+                        padding-top: 0;
+                    }
+                }
+
+
+                .card-content {
+                    max-width: 17.5rem;
+                    color: $secondaryColor;
+
+                    @media #{$vpTablet991} {
+                        max-width: 100%;
+                    }
+
+                    .card-heading {
+                        text-transform: uppercase;
+                        margin-bottom: 1.75rem;
+
+                        @media #{$vpTablet991} {
+                            margin-bottom: 1.33rem;
+                        }
+                    }
+                }
+
+                .card-image-wrapper {
+                    position: relative;
+                    height: 40.5rem;
+                    width: 27rem;
+                    overflow: hidden;
+
+                    @media #{$vpTablet991} {
+                        height: 28.75rem;
+                        width: 100%;
+                        overflow: unset;
+                    }
+
+
+                    .circle-one {
+                        position: absolute;
+                        top: 5.47rem;
+                        right: 20.4rem;
+                        display: none;
+
+                        @media #{$vpTablet991} {
+                            left: auto;
+                            top: -7rem;
+                            right: 1rem;
+                            transform: rotate(90deg);
+                            /*rtl:raw: transform: rotate(-90deg);*/
+                            display: block;
+                        }
+                    }
+
+                    .circle-left {
+                        display: none;
+
+                        @media #{$vpTablet991} {
+                            position: absolute;
+                            display: block;
+                            right: auto;
+                            top: -7rem;
+                            left: 1rem;
+                            transform: rotate(76deg);
+                            /*rtl:raw: transform: rotate(270deg);*/
+                        }
+                    }
+
+                    .circle-right {
+                        display: none;
+
+                        @media #{$vpTablet991} {
+                            position: absolute;
+                            display: block;
+                            top: -7rem;
+                            right: 1rem;
+                            left: auto;
+                            transform: rotate(76deg);
+                            /*rtl:raw: transform: rotate(270deg);*/
+                        }
+                    }
+
+                    .card-circle-wrapper {
+                        position: relative;
+                        height: 40.5rem;
+                        width: 27rem;
+                        overflow: hidden;
+
+                        @media #{$vpTablet991} {
+                            height: 28.75rem;
+                            width: 100%;
+                        }
+
+                        @media #{vpMobile600} {
+                            // overflow: unset;
+                            height: 28.75rem;
+                        }
+
+                        .card-image {
+                            width: 100%;
+                            height: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                }
+
+
+
+            }
+        }
+    }
+}

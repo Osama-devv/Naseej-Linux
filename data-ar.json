@@ -1,0 +1,614 @@
+{
+  "dir": "rtl",
+  "baseURLMain": ".",
+  "baseURL": ".",
+  "baseURLAr": "./ar",
+  "currentURL": "/ar/",
+  "asset": "./assets",
+  "title": "نسيج | المنسوجات المستدامة والتراث ومستقبل المنسوجات",
+  "description": "اكتشفوا كيف تقود نسيج مستقبل المنسوجات في الإمارات عبر صون المنسوجات التقليدية الإماراتية، وتعزيز إعادة تدوير المنسوجات، وبناء اقتصاد مستدام ",
+  "canonical": "https://uat.uaenaseej.ae/ar/",
+  "organizationSchema": "{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"@id\": \"https://uat.uaenaseej.ae/ar/#organization\",\n  \"url\": \"https://uat.uaenaseej.ae/ar/\",\n  \"name\": \"نسيج\",\n  \"alternateName\": \"مبادرة نسيج الوطنية للاقتصاد الدائري للمنسوجات\",\n  \"description\": \"نسيج مبادرة وطنية في دولة الإمارات تهدف إلى تحقيق الاقتصاد الدائري للمنسوجات من خلال توحيد جهود المجتمع والصناعة والحكومة لتحويل قصة النفايات إلى نسيج جديد من الإمكانيات والحلول المستدامة.\",\n  \"logo\": {\n    \"@type\": \"ImageObject\",\n    \"url\": \"https://uat.uaenaseej.ae/assets/images/logo.svg\"\n  },\n  \"image\": \"https://uat.uaenaseej.ae/assets/images/modal-3-desk-hero.webp\",\n  \"address\": {\n    \"@type\": \"PostalAddress\",\n    \"addressCountry\": \"AE\"\n  },\n  \"areaServed\": \"AE\",\n  \"knowsAbout\": [\n    \"الاقتصاد الدائري للمنسوجات\",\n    \"جمع وإعادة تدوير المنسوجات\",\n    \"التوعية المجتمعية والاستدامة\",\n    \"دراسات السوق وسلوك المستهلك\",\n    \"السياسات واللوائح الداعمة للاستدامة\",\n    \"الأعمال الدائرية والابتكار في مجال المنسوجات\"\n  ]\n}",
+  "twitterMeta": {
+    "card": "summary_large_image",
+    "site": "@uaenaseej",
+    "creator": "@uaenaseej",
+    "title": "نسيج — المنسوجات جزء من تراثنا، فلننسج لها مستقبلاً",
+    "description": "مبادرة نسيج تدعم الانتقال نحو اقتصاد دائري للمنسوجات في دولة الإمارات، عبر تمكين المجتمع، وبناء الشراكات، وتسهيل حلول إعادة التدوير، حتى نحافظ على قيمة كل قطعة نسيج.",
+    "url": "https://uat.uaenaseej.ae/ar/",
+    "image": "https://uat.uaenaseej.ae/assets/images/modal-3-desk-hero.webp",
+    "imageAlt": "المنسوجات جزء من تراثنا، فلننسج لها مستقبلاً"
+  },
+  "ogMeta": {
+    "type": "website",
+    "siteName": "Naseej | نسيج",
+    "locale": "ar_AE",
+    "localeAlternate": "en_AE",
+    "title": "نسيج — المنسوجات جزء من تراثنا، فلننسج لها مستقبلاً",
+    "description": "نسيج مبادرة وطنية في دولة الإمارات تعزز مفهوم الاقتصاد الدائري للمنسوجات، من خلال الوعي المجتمعي، وإعادة التدوير، والابتكار، وبناء الشراكات التي تمنح الأقمشة حياة أطول وقيمة متجددة.",
+    "url": "https://uat.uaenaseej.ae/ar/",
+    "image": "https://uat.uaenaseej.ae/assets/images/modal-3-desk-hero.webp",
+    "imageSecureUrl": "https://uat.uaenaseej.ae/assets/images/modal-3-desk-hero.webp",
+    "imageAlt": "المنسوجات جزء من تراثنا، فلننسج لها مستقبلاً",
+    "imageWidth": "1200",
+    "imageHeight": "630"
+  },
+  "sideBarSection": {
+    "navLangEN": "EN",
+    "navLangHref": "/en",
+    "scrollDownText": "اِنتقِل لأسفل",
+    "sideBarSectionNumber": "<li class=\"active\" data-target=\"slide-2\"><a href=\"javaScript:void(0);\" class=\"cursor\">01</a></li><li data-target=\"slide-3\"><a href=\"javaScript:void(0);\" class=\"cursor\">02</a></li><li data-target=\"slide-6\"><a href=\"javaScript:void(0);\" class=\"cursor\">03</a></li><li data-target=\"slide-10\"><a href=\"javaScript:void(0);\" class=\"cursor\">04</a></li><li data-target=\"slide-12\"><a href=\"javaScript:void(0);\" class=\"cursor\">05</a></li>"
+  },
+  "bannerSection": {
+    "heading": "<h1 class='heading1 banner-heading slide-heading__title hedingTitle animate-text-left'>المنسوجات جزء من تراثنا،</h1><h2 class='heading1 banner-heading slide-heading__title hedingTitle animate-text-right mb-space'>فلننسج لها مستقبلًا </h2>",
+    "subHeading": "<h5 class='banner-heading slide-heading__title hedingTitle animate-text-left'>كل قطعة نسيج تحمل قصة، وكل قماش يحمل قيمة.</h5>",
+    "description": "معًا، نحافظ على المنسوجات ونصنع لدولة الإمارات العربية المتحدة مستقبلًا يقوم على الاقتصاد الدائري."
+  },
+  "storySection": {
+    "storyHeading": "قديمًا، في دولة الإمارات، كانت المنسوجات تُصنع لكي تدوم وتبقى",
+    "storyDescription": "كانت نساء البدو يستخدمن السدو لنسج قطع متعددة الأنماط، من شعر الإبل والماعز، وكن يبتكرن تصاميم جميلة تنبض بمعانٍ خاصة تعبر عن الهوية.<br/><br/>كان الناس يلبسون ملابس تُخاط يدويًا، يرتدونها بفخر، وحين تتمزق كانوا يرقعونها ويواصلون استخدامها.<br/></br>وعندما تصبح ملابسهم غير مناسبة، كانوا يورثونها لأفراد آخرين في الأسرة لاستخدامها من بعدهم.<br/><br/>يعبّر إصلاح الملابس وإعادة استخدامها عن ثقافة الحرص والاهتمام، وكان تجسيدًا لتقاليد المجتمع التي حفظت الحكايات القديمة من الاندثار.",
+    "storyCta": {
+      "text": "المزيد",
+      "href": "/",
+      "target": "_self"
+    },
+    "storyContentCircleText": "<colored color=\"#E61717\"> تاريخ الرعاية والاهتمام</colored> بالنسيج في دولة الإمارات"
+  },
+  "messageSection": {
+    "messageHeading": "<h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\">نحن الآن</h2><h2 class=\"heading1 slide-heading__title dark animate-text-right hedingTitle\">مفترق الطرق</h2>",
+    "messageDescription": "بعد مسيرةٍ طويلة من العناية والاهتمام، نجد أنفسنا اليوم أمام خيارٍ واضح  كيف نجعل ذلك ممكنًا؟ هنا تبدأ حكاية نسيج",
+    "messageSnakeText": "  المنسوجات جزء من تراثنا،  فلننسج لها مستقبلًا"
+  },
+  "storyContentSection": {
+    "image": "/assets/images/thumbnails/circle-2.webp",
+    "storyContentHeading": "اليوم، تغّيرت قصة المنسوجات في دولة الإمارات العربية المتحدة",
+    "storyContentDescription1": "التركيز على استدامة الجودة، والاستهلاك بوعي ومسؤولية.",
+    "storyContentDescription2": "معالجة ما يحتاج إلى الإصلاح، وتخيُّل ملابسنا بأساليب جديدة ومبدعة.",
+    "storyContentDescription3": "التبرع بوعيٍ وهدف، وتكريم القطع التي أحببناها عبر منحها حياةً جديدة. ",
+    "storyContentDescription4": "إعادة تدوير المنسوجات وتحويلها، والاستفادة من هذه الألياف والحفاظ عليها.",
+    "storyContentIcon2Lottie": "/assets/images/icons/ic-recycle.json",
+    "storyContentIcon3Lottie": "/assets/images/icons/ic-bag.json",
+    "storyContentIcon1": "/assets/images/icons/shirt-icon.svg",
+    "storyContentIcon2": "/assets/images/icons/scissor-icon.svg",
+    "storyContentIcon3": "/assets/images/icons/donate-icon.svg",
+    "storyContentIcon4": "/assets/images/icons/recycle-icon.svg",
+    "storyContentCta": {
+      "text": "عرض المزيد",
+      "href": "/",
+      "target": "_self"
+    },
+    "storyContentCircleText": "<colored color=\"#E61717\">المسار الحالي، </colored>واقعنا اليوم "
+  },
+  "storyPathOfPossibilitySection": {
+    "image": "/assets/images/thumbnails/circle-3.webp",
+    "storyPathOfPossibilityHeading": "لا ينبغي أن يكون واقعنا كما هو عليه، لنغير هذا الواقع، من خلال...",
+    "storyPathOfPossibilityDescription1": "",
+    "storyPathOfPossibilityDescription2": "التركيز على استدامة الجودة، واﻻستهﻻك بوعي ومسؤولية.<br/><br/>معالجة ما يحتاج إلى اﻹصﻻح، وتخيّل مﻻبسنا بأساليب جديدة ومبدعة. <br/></br>",
+    "storyPathOfPossibilityCta": {
+      "text": "عرض المزيد",
+      "href": "/",
+      "target": "_self"
+    },
+    "storyPathOfPossibilityIcon1Lottie": "/assets/images/icons/ic-global.json",
+    "storyPathOfPossibilityIcon2Lottie": "/assets/images/icons/ic-reuse.json",
+    "storyPathOfPossibilityIcon1": "/assets/images/icons/ic-global.svg",
+    "storyPathOfPossibilityIcon2": "/assets/images/icons/ic-reuse.svg",
+    "storyPathOfPossibilityCircleText": "<colored color=\"#E61717\">مسار متعدد</colored> الاحتمالات"
+  },
+  "messageTextileCarrySection": {
+    "messageTextileCarryHeading": "<h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\">ننسجُ معًا طريقًا </h2><h2 class=\"heading1 slide-heading__title dark animate-text-right hedingTitle\"> وطنيًّا واحدًا</h2>",
+    "messageTextileCarrySnakeText": "  المنسوجات جزء من تراثنا،  فلننسج لها مستقبلًا",
+    "messageTextileCarryDescription": "تعتبر <span>نسيج</span> مبادرة وطنية إماراتية تهدف إلى تحقيق الاقتصاد الدائري للمنسوجات، من خلال توحيد جهود المجتمع المحلي والصناعة والحكومة لتحويل قصة النفايات إلى نسيج جديد من نسيج من الفرص والحلول."
+  },
+  "ourVisionSection": {
+    "image": "/assets/images/thumbnails/circle-4.webp",
+    "ourVisionHeading": "رؤية نسيج",
+    "ourVisionDescription": "نحرص في دولة الإمارات جميعًا، أفرادًا ومجتمعات، على تبني خيارات أكثر استدامة وصون كل ما نستهلكه من منسوجات، فنمنحها حياة مديدة وقيمة متجددة.",
+    "ourVisionContentCircleText": "رؤية <colored color=\"#E61717\">نسيج</colored>"
+  },
+  "ourMissionSection": {
+    "ourMissionHeading": "مهمة نسيج",
+    "ourMissionDescription": "نتطلع إلى تسريع التحول نحو الاقتصاد الدائري للمنسوجات في دولة الإمارات، عبر تمكين المجتمعات وزيادة الوعي وبناء الشراكات وسن التشريعات وتسهيل الوصول إلى أحدث حلول إعادة التدوير، لنرسخ معًا ثقافة مجتمعية تلهم تبني ممارسات مستدامة وتعيد الحياة لكل ما نستهلكه من منسوجات.",
+    "ourMissionContentCircleText": "مهمة <colored color=\"#E61717\">نسيج</colored>",
+    "image": "/assets/images/thumbnails/our-misson-image.webp"
+  },
+  "strategyPillarsSection": {
+    "title": "تقوم استراتيجيتنا على ركائز أساسية ",
+    "cards": {
+      "item1": {
+        "iconLottie": "/assets/images/icons/ic-reuse.json",
+        "icon": "/assets/images/icons/ic-reuse.svg",
+        "title": "الجمع وإعادة التدوير",
+        "description": "تعزيز البنية التحتية لجمع وفرز وإعادة تدوير المنسوجات بكفاءة، والحد من تراكمها في مكبات النفاية."
+      },
+      "item2": {
+        "iconLottie": "/assets/images/icons/ic-community.json",
+        "icon": "/assets/images/icons/ic-community.svg",
+        "title": "تعزيز الوعي والتواصل المجتمعي",
+        "description": "تشجيع التغيير في السلوك والعادات الاستهلاكية عبر الحملات العامة والمبادرات التوعوية."
+      },
+      "item3": {
+        "iconLottie": "/assets/images/icons/ic-research.json",
+        "icon": "/assets/images/icons/ic-research.svg",
+        "title": "دراسة معلومات السوق",
+        "description": "إجراء أبحاث معمّقة حول سلوك المستهلك واتجاهات السوق لتوجيه القرارات والاستراتيجيات."
+      },
+      "item4": {
+        "iconLottie": "/assets/images/icons/ic-policy.json",
+        "icon": "/assets/images/icons/ic-policy.svg",
+        "title": "السياسات واللوائح",
+        "description": "الدعوة إلى وضع أهداف وحوافز وطنية تُسهم في دعم منظومة إعادة تدوير المنسوجات."
+      },
+      "item5": {
+        "iconLottie": "/assets/images/icons/ic-briefcase.json",
+        "icon": "/assets/images/icons/ic-briefcase.svg",
+        "title": "الأعمال الدائرية والابتكار",
+        "description": "تمكين الشركات الناشئة والمشروعات الصغيرة والمتوسطة من تطوير حلول مبتكرة ومستدامة في مجال المنسوجات."
+      }
+    }
+  },
+  "fabricOfPossibilitySection": {
+    "fabricOfPossibilityHeading": "<h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\">دورنا </h2><h2 class=\"heading1 slide-heading__title dark animate-text-right hedingTitle\">في نسج </h2><h2 class=\"heading1 slide-heading__title dark animate-text-left hedingTitle\"> هذه الحلول</h2>",
+    "fabricOfPossibilityDescription": "يمكن لكل فردٍ منا أن يسهم في تحويل المنسوجات إلى قيمة دائمة، والمشاركة في بناء اقتصاد دائري مستدام في دولة الإمارات العربية المتحدة.",
+    "fabricOfPossibilitySnakeText": " المنسوجات جزء من تراثنا،  فلننسج لها مستقبلًا"
+  },
+  "stakeholdersSection": {
+    "heading": "دورنا في نسج هذه الحلول",
+    "description": "يمكن لكل فردٍ منا أن يسهم في تحويل المنسوجات إلى قيمة دائمة، والمشاركة في بناء اقتصاد دائري مستدام في دولة الإمارات العربية المتحدة.",
+    "cards": {
+      "communities": {
+        "image": "/assets/images/thumbnails/item-1.webp",
+        "alt": "إعادة التدوير",
+        "title": "المجتمعات",
+        "description": "يمكنكم إطالة أعمار ملابسكم بإصلاحها أو التبرع بها أو إعادة تدويرها لأهداف محددة. كل خيار من هذه الخيارات يحافظ على قصص قطع القماش ويبقيها نابضة بالحياة.",
+        "contact": "",
+        "circleText": "<colored color=\"#E61717\">المجتمعات</colored>"
+      },
+      "industries": {
+        "image": "/assets/images/thumbnails/item-2.webp",
+        "alt": "إعادة التدوير",
+        "title": "مجال الصناعة",
+        "description": "كونوا روّادًا في التحول الدائري، انضموا إلى الشراكة الوطنية، واختبروا نماذج عمل مبتكرة، استفيدوا من الأدوات العملية لتحقيق التغيير.",
+        "contact": "",
+        "circleText": "<colored color=\"#E61717\">الصناعة مجال</colored>"
+      },
+      "researchersAndMedia": {
+        "image": "/assets/images/thumbnails/item-3.webp",
+        "alt": "إعادة التدوير",
+        "title": "الباحثون",
+        "description": "ساهموا في رسم ملامح المستقبل، استكشفوا الأفكار ووجّهوا السياسات وساعدوا في تشكيل المبادرات الوطنية.",
+        "contact": "",
+        "circleText": "<colored color=\"#E61717\">الباحثون</colored>"
+      },
+      "media": {
+        "image": "/assets/images/thumbnails/item-4.webp",
+        "alt": "recycle",
+        "title": "وسائل الإعلام",
+        "description": "شاركوا الناس هذه القصص، فهي تستحق أن تُروى، انشروا المعرفة وأطلِقوا الحوار حول هذه القضية، ألهموا الجمهور ليفهم هذا الواقع ويساهم في التغيير.",
+        "circleText": "<colored color=\"#E61717\">وسائل الإعلام</colored>"
+      }
+    }
+  },
+  "commitmentSection": {
+    "heading": "<h2 class=\"heading2 slide-heading__title dark hedingTitle\">التزام وطني</h2>",
+    "description": "تتلقى مبادرة نسيج الدعم من مجموعة من قادة دولة الإمارات والمبتكرين وبُنّاة المجتمع.",
+    "entitiesHeading": "الجهات المؤسسة",
+    "partnersHeading": "الشركاء",
+    "partners": {
+      "staticLogos": {
+        "partner1": {
+          "image": "/assets/images/partners/partner1.svg",
+          "alt": "شريك"
+        },
+        "partner2": {
+          "image": "/assets/images/partners/partner2.svg",
+          "alt": "شريك"
+        },
+        "partner3": {
+          "image": "/assets/images/partners/partner3.svg",
+          "alt": "شريك"
+        }
+      },
+      "marqueeLogosTop": {
+        "logo1": {
+          "image": "/assets/images/partners/ic-partner1.svg",
+          "alt": "شعار"
+        },
+        "logo2": {
+          "image": "/assets/images/partners/ic-partner2.svg",
+          "alt": "شعار"
+        },
+        "logo3": {
+          "image": "/assets/images/partners/ic-partner3.svg",
+          "alt": "شعار"
+        },
+        "logo4": {
+          "image": "/assets/images/partners/ic-partner4.svg",
+          "alt": "شعار"
+        },
+        "logo5": {
+          "image": "/assets/images/partners/ic-partner5.svg",
+          "alt": "شعار"
+        },
+        "logo6": {
+          "image": "/assets/images/partners/ic-partner-ar-6.svg",
+          "alt": "شعار"
+        },
+        "logo7": {
+          "image": "/assets/images/partners/ic-partner7.svg",
+          "alt": "شعار"
+        },
+        "logo8": {
+          "image": "/assets/images/partners/ic-partner8.svg",
+          "alt": "شعار"
+        }
+      },
+      "marqueeLogosBottom": {
+        "logo9": {
+          "image": "/assets/images/partners/ic-partner9.svg",
+          "alt": "شعار"
+        },
+        "logo10": {
+          "image": "/assets/images/partners/ic-partner10.svg",
+          "alt": "شعار"
+        },
+        "logo11": {
+          "image": "/assets/images/partners/ic-partner11.svg",
+          "alt": "شعار"
+        },
+        "logo12": {
+          "image": "/assets/images/partners/ic-partner12.svg",
+          "alt": "شعار"
+        },
+        "logo13": {
+          "image": "/assets/images/partners/ic-partner13.svg",
+          "alt": "شعار"
+        },
+        "logo14": {
+          "image": "/assets/images/partners/ic-partner14.svg",
+          "alt": "شعار"
+        },
+        "logo15": {
+          "image": "/assets/images/partners/ic-partner15.svg",
+          "alt": "شعار"
+        },
+        "logo16": {
+          "image": "/assets/images/partners/ic-partner16.svg",
+          "alt": "شعار"
+        },
+        "logo17": {
+          "image": "/assets/images/partners/ic-partner17.svg",
+          "alt": "شعار"
+        },
+        "logo18": {
+          "image": "/assets/images/partners/ic-partner18.svg",
+          "alt": "شعار"
+        }
+      }
+    }
+  },
+  "footer": {
+    "footerText": "حقوق النشر © 2025 نسيج",
+    "footerJoinText": "انضموا إلينا وشاركونا في بناء مستقبل الاقتصاد الدائري للمنسوجات في دولة الإمارات."
+  },
+  "chapterModal1": {
+    "heading": "قديمًا، في دولة الإمارات، كانت المنسوجات تُصنع لكي تدوم وتبقى",
+    "heroImage": {
+      "alt": "modal-image",
+      "desktopSrc": "/assets/images/thumbnails/modal-1-dek-hero.png",
+      "mobileSrc": "/assets/images/thumbnails/modal-1-mob-hero.png"
+    },
+    "description": "كانت نساء البدو يستخدمن السدو لينسجن قطعًا متعددة الأنماط، من شعر الإبل والماعز. كن يبتكرن تصاميم جميلة تنبض بمعانٍ خاصة تعبر عن الهوية.",
+    "card1": {
+      "description": "كان الناس يلبسون ملابس تُخاط يدويًا، يرتدونها بفخر، وحين تتمزق كانوا يرقعونها ويواصلون استخدامها.",
+      "circleText1": "<colored color=\"#E61717\">تراث دولة الإمارات العربية المتحدة</colored>",
+      "canvasDataTextBrand": "<colored color=\"#E61717\">التراث العريق لدولة الإمارات العربية المتحدة</colored>",
+      "canvasDataTextWhite": "<colored color=\"#FFFFFF\">التراث العريق لدولة الإمارات العربية المتحدة</colored>",
+      "image": {
+        "src": "/assets/images/thumbnails/modal-one-card1-image.png",
+        "alt": "modal-image"
+      },
+      "circle": {
+        "class": "circle-one",
+        "canvasDataTextBrand": "<colored color=\"#E61717\">POSSIBILITY THE PATH OF</colored>",
+        "canvasDataTextWhite": "<colored color=\"#FFFFFF\">POSSIBILITY THE PATH OF</colored>"
+      }
+    },
+    "card2": {
+      "description": "وعندما تصبح ملابسهم غير مناسبة، كانوا يورثونها لأفراد  آخرين في الأسرة ليستخدمونها من بعدهم. كان إصلاح الملابس وإعادة استخدامها يعبر عن روح الحرص والاهتمام كان تجسيدًا لتقاليد المجتمع التي حفظت الحكايات القديمة من الاندثار.",
+      "canvasDataTextBrand": "<colored color=\"#E61717\">التراث العريق لدولة الإمارات العربية المتحدة</colored>",
+      "canvasDataTextWhite": "<colored color=\"#FFFFFF\">التراث العريق لدولة الإمارات العربية المتحدة</colored>",
+      "image": {
+        "src": "/assets/images/thumbnails/modal-one-card2-image.png",
+        "alt": "modal-image"
+      },
+      "circle": {
+        "class": "circle-two",
+        "canvasDataText": "<colored color='#E61717'>PATH CURRE</colored><colored color='#FFFFFF'>CURRENT</colored>"
+      },
+      "isReversed": true
+    }
+  },
+  "chapterModal2": {
+    "heading": "مسار الواقع الحالي",
+    "heroImage": {
+      "alt": "modal-image",
+      "desktopSrc": "/assets/images/thumbnails/modal-2-dek-hero.png",
+      "mobileSrc": "/assets/images/thumbnails/modal-2-mob-hero.png"
+    },
+    "cards": {
+      "card1": {
+        "stats": {
+          "prefix": "~",
+          "number": "500",
+          "postText": "مليون",
+          "text1": "قطعة نسيج",
+          "text2": "تُستهلك سنويًا في دولة الإمارات العربية المتحدة."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-2-dek-hero.png",
+          "mobileSrc": "/assets/images/thumbnails/modal-2-mob-hero.png",
+          "alt": "modal-image"
+        }
+      },
+      "card2": {
+        "stats": {
+          "prefix": "~",
+          "number": "220,000",
+          "text1": "طن من المنسوجات",
+          "text2": "يتم التخلص منها كل عام."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/svg/illustation-1.2-dsk.svg",
+          "mobileSrc": "/assets/images/svg/illustation-1.2-mob.svg",
+          "alt": "modal-image"
+        }
+      },
+      "card3": {
+        "isReversed": true,
+        "stats": {
+          "prefix": "%",
+          "number": "88",
+          "suffix": "",
+          "text1": "من المنسوجات المهدورة",
+          "text2": "نتهي في مكبّات النفايات، فتُدفن قصصها إلى الأبد."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/svg/illustration-2.2-dsk.svg",
+          "mobileSrc": "/assets/images/svg/illustation-1.2-mob.svg",
+          "alt": "modal-image"
+        }
+      },
+      "card4": {
+        "isCentered": true,
+        "stats": {
+          "number": "57",
+          "suffix": "%",
+          "text1": " منّا",
+          "text2": "يعتقدون أن أثر  عالم الأزياء إيجابي، غير مدركين التكلفة والأثر الخفيّ على البيئة."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/svg/illustration-3.2-dsk.svg",
+          "mobileSrc": "/assets/images/svg/illustration-3.2-mob.svg",
+          "alt": "modal-image"
+        }
+      },
+      "card5": {
+        "isCentered": true,
+        "stats": {
+          "prefixText": " خزائننا ممتلئة، لكن",
+          "number": "60",
+          "suffix": "%",
+          "text1": " من الملابس نادرًا ما تُرتدى",
+          "text2": "ويُتخلَّص من ما يقارب نصفها خلال عام واحد فقط."
+        },
+        "image": {
+          "desktopSrc": "/assets/images/svg/illustration-3.2-dsk.svg",
+          "mobileSrc": "/assets/images/svg/illustration-3.2-mob.svg",
+          "alt": "modal-image"
+        }
+      }
+    }
+  },
+  "chapterModal3": {
+    "heading": "المسار الذي يرسم ملامح واقعنا اليوم",
+    "heroImage": {
+      "alt": "modal-image",
+      "desktopSrc": "/assets/images/thumbnails/modal-3-desk-hero.png",
+      "mobileSrc": "/assets/images/thumbnails/modal-3-mob-hero.png"
+    },
+    "cards": {
+      "card1": {
+        "title": "النوعية",
+        "description": "قوموا باختيار قطعًا خالدة، واقتنوا بوعي ما تحتاجونه فقط.",
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-desk-3-1.png",
+          "mobileSrc": "/assets/images/thumbnails/modal-mob-3-1.png",
+          "alt": "modal-image"
+        },
+        "circle": {
+          "class": "circle-one",
+          "canvasDataTextBrand": "<colored color=\"#E61717\">المسار الذي يرسم ملامح واقعنا اليوم</colored>",
+          "canvasDataTextWhite": "<colored color=\"#FFFFFF\">المسار الذي يرسم ملامح واقعنا اليوم</colored>"
+        }
+      },
+      "card2": {
+        "title": "الإصلاح",
+        "description": "أصلِحوا ما قد تلف، وابحثوا عن طرق مبتكرة لإعادة استخدام الملابس.",
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-desk-3-2.jpg",
+          "mobileSrc": "/assets/images/thumbnails/modal-mob-3-2.png",
+          "alt": "modal-image"
+        },
+        "circle": {
+          "class": "circle-left",
+          "canvasDataText": "<colored color='#E61717'>PATH CURRE</colored><colored color='#FFFFFF'>CURRENT</colored>"
+        }
+      },
+      "card3": {
+        "title": "المشاركة",
+        "description": "شاركوا ما لا تحتاجونه بنيّة طيبة، واحتفوا بسحر القطع التي حملت قصصًا قبلنا.",
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-desk-3-3.png",
+          "mobileSrc": "/assets/images/thumbnails/modal-mob-3-3.png",
+          "alt": "modal-image"
+        },
+        "circle": {
+          "class": "circle-right",
+          "canvasDataText": "<colored color='#E61717'>PATH CURRE</colored><colored color='#FFFFFF'>CURRENT</colored>"
+        }
+      },
+      "card4": {
+        "title": "التجديد",
+        "description": "امنحوا القطع حياة جديدة بإعادة تشكيلها، أو أعيدوا تدوير خيوطها لتنسجوا منها بدايات أخرى.",
+        "image": {
+          "desktopSrc": "/assets/images/thumbnails/modal-desk-3-4.png",
+          "mobileSrc": "/assets/images/thumbnails/modal-mob-3-4.png",
+          "alt": "modal-image"
+        },
+        "circle": {
+          "class": "circle-left",
+          "canvasDataText": "<colored color='#E61717'>PATH CURRE</colored><colored color='#FFFFFF'>CURRENT</colored>"
+        }
+      }
+    }
+  },
+  "menuItems": {
+    "item1": {
+      "title": "مقدمة",
+      "target": "slide-2"
+    },
+    "item2": {
+      "title": "تلاقي مسارات/ تقاطع طرق",
+      "target": "slide-3"
+    },
+    "item3": {
+      "title": "نبذة عن نسيج",
+      "target": "slide-6"
+    },
+    "item4": {
+      "title": "دوركم",
+      "target": "slide-10"
+    },
+    "item5": {
+      "title": "شركاؤنا",
+      "target": "slide-12"
+    }
+  },
+  "errorSection": {
+    "heading1": "هذا المسار",
+    "heading2": "مقطوع",
+    "message": "يمكنكم بدلًا من ذلك، استكشاف الطريقة التي نرى بها العالم، واكتشاف رؤيتنا لما هو آتٍ",
+    "404Error": "خطأ 404",
+    "copyRightText": "حقوق النشر © 2025 نسيج",
+    "button": {
+      "leftLabel": "تعرفوا على",
+      "rightLabel": "نسيج"
+    }
+  },
+  "messageSlide": {
+    "heading1": "نحن الآن ",
+    "heading2": "عند مفترق طرق"
+  },
+  "foundationPillarsSection": {
+    "mainHeading": "تقوم استراتيجيتنا على ركائز أساسية",
+    "collection_and_recycling": {
+      "title": "الجمع وإعادة التدوير",
+      "description": "تعزيز البنية التحتية لجمع وفرز وإعادة تدوير المنسوجات بكفاءة، والحد من تراكمها في مكبات النفاية.",
+      "image": "/assets/images/thumbnails/slider-with-circle-1.webp",
+      "icon": "/assets/images/icons/ic-recycle-bin.svg"
+    },
+    "community_awareness": {
+      "title": "تعزيز الوعي والتواصل المجتمعي",
+      "description": "تشجيع التغيير في السلوك والعادات الاستهلاكية عبر الحملات العامة والمبادرات التوعوية.",
+      "image": "/assets/images/thumbnails/slider-with-circle-2-new.webp",
+      "icon": "/assets/images/icons/ic-handshake.svg"
+    },
+    "market_intelligence": {
+      "title": "دراسة معلومات السوق",
+      "description": "إجراء أبحاث معمّقة حول سلوك المستهلك واتجاهات السوق لتوجيه القرارات والاستراتيجيات.",
+      "image": "/assets/images/thumbnails/slider-with-circle-3.webp",
+      "icon": "/assets/images/icons/ic-profit-line.svg"
+    },
+    "policies_and_regulations": {
+      "title": "السياسات واللوائح",
+      "description": "الدعوة إلى وضع أهداف وحوافز وطنية تُسهم في دعم منظومة إعادة تدوير المنسوجات.",
+      "image": "/assets/images/thumbnails/slider-with-circle-4.webp",
+      "icon": "/assets/images/icons/ic-weight-scale.svg"
+    },
+    "circular_business": {
+      "title": "الأعمال الدائرية والابتكار",
+      "description": "تمكين الشركات الناشئة والمشروعات الصغيرة والمتوسطة من تطوير حلول مبتكرة ومستدامة في مجال المنسوجات.",
+      "image": "/assets/images/thumbnails/slider-with-circle-5.webp",
+      "icon": "/assets/images/icons/ic-infinity.svg"
+    }
+  },
+  "statisticsTab": {
+    "tabs": {
+      "item1": {
+        "label": "الاستهلاك",
+        "number": "500",
+        "prefix": "~",
+        "postfix": "",
+        "bold_text": "مليون قطعة نسيج",
+        "text": " <span>مليون قطعة نسيج</span> تُستهلك سنويًا في دولة الإمارات العربية المتحدة",
+        "chart_id": "textileChart-1"
+      },
+      "item2": {
+        "label": "التأثير",
+        "number": "220,000",
+        "bold_text": "طن من المنسوجات",
+        "text": "<span>طن من المنسوجات</span> يتم التخلص منها كل عام",
+        "prefix": "~",
+        "postfix": "",
+        "chart_id": "textileChart-2"
+      },
+      "item3": {
+        "label": "الهدر",
+        "number": "88",
+        "bold_text": "تنتهي رحلة المنسوجات التي يُستغنى عنها",
+        "text": "<span>تنتهي رحلة المنسوجات التي يُستغنى عنها</span> في مكبّات النفايات، لتُدفَن قصصها إلى الأبد",
+        "prefix": "~",
+        "postfix": "% ",
+        "images": {
+          "desktop": "/assets/images/svg/illustation-1.1-dsk-new.svg",
+          "mobile": "/assets/images/svg/illustation-1.2-mob-new.svg"
+        }
+      },
+      "item4": {
+        "label": "الوعي",
+        "number": "57",
+        "bold_text": "منّا",
+        "text": "<span>منا يعتقد أن تأثير الموضة إيجابي،</span> غير واعين بتكلفتها البيئية الخفية",
+        "prefix": "~",
+        "postfix": "%",
+        "images": {
+          "desktop": "/assets/images/svg/illustation-1.1-dsk-new.svg",
+          "mobile": "/assets/images/svg/illustation-1.2-mob-new.svg"
+        }
+      },
+      "item5": {
+        "label": "الاستخدام",
+        "number": "60",
+        "bold_text": "من الملابس نادرًا ما تُرتدى، ",
+        "text": "<span>من الملابس نادرًا ما تُرتدى،</span> ويُتخلَّص من ما يقارب نصفها خلال عام واحد فقط.",
+        "prefix": "~",
+        "postfix": "%",
+        "images": {
+          "desktop": "/assets/images/svg/illustation-1.1-dsk-new.svg",
+          "mobile": "/assets/images/svg/illustation-1.2-mob-new.svg"
+        }
+      }
+    }
+  },
+  "revealCircle": {
+    "thumbnail": "/assets/images/thumbnails/naseej_banner_thumb.webp",
+    "video": "/assets/videos/1920×1080_Full_HD_16x9.mp4",
+    "mobileVideo": "/assets/videos/1080x1920_Vertical_9x16.webm"
+  },
+  "storySlider": {
+    "slide1": "/assets/images/thumbnails/modal-1-mob-hero.webp",
+    "slide2": "/assets/images/thumbnails/modal-one-card1-image.webp",
+    "slide3": "/assets/images/thumbnails/modal-one-card2-image.webp"
+  }
+}

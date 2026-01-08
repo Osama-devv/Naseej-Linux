@@ -1,0 +1,126 @@
+<section class="vision-mission ">
+    <div class="container">
+
+        <div class="vision-mission__container">
+            <div class="vision-mission__tabs" role="tablist" aria-label="Statistics tabs">
+                <div class="vision-mission__tabs__wrapper">
+                    <button class="tab-btn heading7 active" data-index="0" aria-selected="true" role="tab">
+                        <span class="tab-btn-text">{{{stakeholdersSection.cards.communities.title}}}</span>
+                        <div class="progress-bar"><span></span></div>
+                    </button>
+                    <button class="tab-btn heading7" data-index="1" aria-selected="false" role="tab">
+                        <span class="tab-btn-text">{{{stakeholdersSection.cards.industries.title}}}</span>
+                        <div class="progress-bar"><span></span></div>
+                    </button>
+                    <button class="tab-btn heading7" data-index="2" aria-selected="false" role="tab">
+                        <span class="tab-btn-text">{{{stakeholdersSection.cards.researchersAndMedia.title}}}</span>
+                        <div class="progress-bar"><span></span></div>
+                    </button>
+                    <button class="tab-btn heading7" data-index="3" aria-selected="false" role="tab">
+                        <span class="tab-btn-text">{{{stakeholdersSection.cards.media.title}}}</span>
+                        <div class="progress-bar"><span></span></div>
+                    </button>
+                </div>
+            </div>
+
+            <div class="vision-mission__content swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="tab-content swiper-slide" id="tab-0" role="tabpanel">
+                        <div class="tab-content-image">
+                            <canvas data-text='{{stakeholdersSection.cards.communities.circleText}}'
+                                class="curved-text"></canvas>
+                            <span class="arrow">
+                                <!-- <img src="assets/images/svg/arrow-start.svg" alt="" class="js-tosvg" /> -->
+                            </span>
+                            <div class="motion-circle" id="tab-vision">
+                                <div class="motion-circle__wrapper">
+                                    <div class="motion-circle__content">
+                                        <!-- <video class="motion-circle__background" src="/assets/videos/circle-1-bg.mp4" autoplay muted loop
+                                        playsinline></video> -->
+                                        <img src="{{stakeholdersSection.cards.communities.image}}" alt="circle-one" loading="lazy"
+                                            class="motion-circle__background">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="body2 tab-content-text">
+                            {{stakeholdersSection.cards.communities.description}}
+                        </p>
+                    </div>
+
+                    <div class="tab-content swiper-slide" id="tab-1" role="tabpanel">
+                        <div class="tab-content-image">
+                            <canvas data-text='{{stakeholdersSection.cards.industries.circleText}}'
+                                class="curved-text flip-words"></canvas>
+                            <span class="arrow">
+                                <!-- <img src="assets/images/svg/arrow-start.svg" alt="" class="js-tosvg" /> -->
+                            </span>
+                            <div class="motion-circle" id="tab-vision">
+                                <div class="motion-circle__wrapper">
+                                    <div class="motion-circle__content">
+                                        <!-- <video class="motion-circle__background" src="/assets/videos/circle-1-bg.mp4" autoplay muted loop
+                                        playsinline></video> -->
+                                        <img src="{{stakeholdersSection.cards.industries.image}}" alt="circle-one" loading="lazy"
+                                            class="motion-circle__background">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="body2 tab-content-text">
+                            {{stakeholdersSection.cards.industries.description}}
+                        </p>
+                    </div>
+
+                    <div class="tab-content swiper-slide" id="tab-2" role="tabpanel">
+                        <div class="tab-content-image">
+                            <canvas data-text='{{stakeholdersSection.cards.researchersAndMedia.circleText}}'
+                                class="curved-text"></canvas>
+                            <span class="arrow">
+                                <!-- <img src="assets/images/svg/arrow-start.svg" alt="" class="js-tosvg" /> -->
+                            </span>
+                            <div class="motion-circle" id="tab-vision">
+                                <div class="motion-circle__wrapper">
+                                    <div class="motion-circle__content">
+                                        <!-- <video class="motion-circle__background" src="/assets/videos/circle-1-bg.mp4" autoplay muted loop
+                                        playsinline></video> -->
+                                        <img src="{{stakeholdersSection.cards.researchersAndMedia.image}}" loading="lazy"
+                                            alt="circle-one" class="motion-circle__background">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="body2 tab-content-text">
+                            {{stakeholdersSection.cards.researchersAndMedia.description}}
+                        </p>
+                    </div>
+
+                    <div class="tab-content swiper-slide" id="tab-3" role="tabpanel" aria-hidden="true">
+                        <div class="tab-content-image">
+                            <span class="arrow">
+                                <!-- <img src="assets/images/svg/arrow-last.svg" alt="" class="js-tosvg" /> -->
+                            </span>
+                            <canvas data-text='{{stakeholdersSection.cards.media.circleText}}'
+                                class="curved-text flip-words"></canvas>
+                            <div class="motion-circle" id="tab-vision">
+                                <div class="motion-circle__wrapper">
+                                    <div class="motion-circle__content">
+                                        <!-- <video class="motion-circle__background" src="/assets/videos/circle-1-bg.mp4" autoplay muted loop
+                                    playsinline></video> -->
+                                        <img src="{{stakeholdersSection.cards.media.image}}" alt="circle-one" loading="lazy"
+                                            class="motion-circle__background">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="body2 tab-content-text">
+                            {{stakeholdersSection.cards.media.description}}
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

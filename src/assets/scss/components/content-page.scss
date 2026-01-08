@@ -1,0 +1,106 @@
+@use '../globals/variables.scss' as *;
+
+.content_page {
+
+    // General spacing between sections
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        color: $black; // adjust based on your palette
+        margin-top: 3rem;
+        margin-bottom: 1.5rem;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    p {
+        margin-bottom: 1rem;
+        // color: $textColor; // consistent with body text color variable
+    }
+
+    // Links
+    a {
+        color: $brand;
+        font-weight: 500;
+        transition: color 0.3s ease;
+        text-decoration: underline !important;
+        
+        &:hover,
+        &:focus {
+        }
+    }
+
+    // Lists
+    ul,
+    ol {
+        padding-left: 2.5rem;
+        margin-bottom: 2rem;
+
+        @media #{$vpTablet991} {
+            padding-left: 2rem;
+        }
+
+        li {
+            position: relative;
+            // color: $textColor;
+            margin-bottom: 0.75rem;
+            line-height: 1.6;
+        }
+    }
+
+    ul {
+        list-style-type: disc;
+    }
+
+    ol {
+        list-style-type: decimal;
+    }
+
+    // Inline text styles
+    strong {
+        font-weight: 700;
+    }
+
+    em,
+    i {
+        font-style: italic;
+    }
+
+    u {
+        text-decoration: underline;
+    }
+
+    mark {
+        background-color: rgba($primaryColor, 0.15);
+        padding: 0 0.25rem;
+    }
+
+    // Blockquote
+    blockquote {
+        margin: 3rem 0;
+        padding: 2rem 3rem;
+        background: rgba($primaryColor, 0.05);
+        font-style: italic;
+        font-size: 1.25rem;
+        // color: $textColor;
+
+        @media #{$vpTablet991} {
+            font-size: 1.5rem;
+            padding: 1.5rem 2rem;
+        }
+    }
+
+    // Small adjustments for consistent vertical rhythm
+    h2+p,
+    h3+p,
+    h4+p,
+    h5+p,
+    h6+p {
+        margin-top: 0.5rem;
+    }
+}

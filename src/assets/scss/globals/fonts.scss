@@ -1,0 +1,45 @@
+
+// @font-face {
+//     font-family: 'ABC-Favorit-Condensed-Unlicensed-Trial';
+//     src: url('../fonts/ABCFavoritCondensed-Light.woff2') format('woff2'),
+//         url('../fonts/ABCFavoritCondensed-Light.woff') format('woff');
+//     font-weight: 300;
+//     font-style: normal;
+//     font-display: swap;
+// }
+
+@font-face {
+    font-family: 'ABCFavoritCondensed';
+    src: url('../fonts/ABCFavoritCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/ABCFavoritCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ABCFavoritCondensed';
+    src: url('../fonts/ABCFavoritCondensed-Bold.woff2') format('woff2'),
+        url('../fonts/ABCFavoritCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ABCFavoritArabic';
+    src: url('../fonts/ABCFavoritArabic-Regular.woff2') format('woff2'),
+        url('../fonts/ABCFavoritArabic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'ABCFavoritArabic';
+    src: url('../fonts/ABCFavoritArabic-Bold.woff2') format('woff2'),
+        url('../fonts/ABCFavoritArabic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

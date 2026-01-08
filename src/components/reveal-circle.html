@@ -1,0 +1,38 @@
+<div class="motion-circle" id="introduction-circle">
+  <div class="motion-circle__wrapper">
+    <div class="motion-circle__content">
+      <!-- <img src="/assets/images/thumbnails/circle-one.webp" alt="circle-one" class="motion-circle__background"> -->
+      <video class="motion-circle__background" src="{{revealCircle.video}}" poster="{{revealCircle.thumbnail}}" fetchpriority="high" decoding="async" autoplay muted loop playsinline></video>
+
+      <!-- <video class="motion-circle__background" src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4" autoplay muted loop playsinline></video>  -->
+      <div class="motion-circle__line"></div>
+      <div class="motion-circle__line"></div>
+      <div class="motion-circle__line"></div>
+      <div class="motion-circle__line"></div>
+      <div class="motion-circle__line"></div>
+      <img src="/assets/images/thumbnails/background_color.webp" alt="loading background" fetchpriority="high" decoding="async" class="motion-circle__image" />
+
+
+      <div class="container">
+        <div class="sec-padded">
+          <div class="text-slide-wrapper">
+            <div class="slide-heading four-layer-text">
+              {{{bannerSection.heading}}}
+
+              <div class="slide-lower-section">
+                <div class="slide-sub-heading">
+                  {{{bannerSection.subHeading}}}
+                </div>
+                <div class="slide-info">
+                  <p class="body1 slide-info__content animate-text-right">{{bannerSection.description}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</div>

@@ -1,0 +1,60 @@
+<section class="banner-wrapper">
+
+  <div class="svg-wraps" id="line-1">
+
+    <span class="red-line-wrap">
+      <span class="red-line"></span>
+    </span>
+    <div class="st-wrapper">
+      <svg xmlns="http://www.w3.org/2000/svg" id="Layer_2" version="1.1" viewBox="0 0 114 83">
+        <path class="st1" d="M57,0v82M57,82c-1.7-19-15.4-57-57-57M57,82c1.7-19,15.4-57,57-57" fill="none"
+          stroke="#FB1D1D" stroke-width="14" />
+      </svg>
+    </div>
+
+  </div>
+
+  <div class="slide-1 banner" id="slide-1">
+    {{> reveal-circle }}
+
+
+
+    <div class="scroll-down-wrapper">
+      <div class="scroll-down-icon">
+        <img src="/assets/images/icons/ic-drop-arrow.svg" alt="js-tosvg">
+      </div>
+    </div>
+  </div>
+
+  <div class="slide-2 story-section" id="slide-2">
+    <div class="half-circle-arrow">
+      <img src="/assets/images/svg/circle-1-en.svg" alt="half-circle-arrow" class="js-tosvg arrow-en">
+      <img src="/assets/images/svg/circle-1-en.svg" alt="half-circle-arrow" class="js-tosvg arrow-ar">
+    </div>
+    <canvas data-text='{{storySection.storyContentCircleText}}' class="curved-text rotate"></canvas>
+
+    <div class="container">
+      <!-- <div class="sec-padded"> -->
+      <div class="story-content" data-animate="fade-in" data-scrub="true">
+        <div class="story-content__title pr-1-5">
+          <h3 class="story-content__heading heading4">{{storySection.storyHeading}}</h3>
+        </div>
+        <div class="story-content__wrapper">
+          <div class="story-content__details">
+            <div class="story-content__item">
+              <div class="story-content__content">
+                <p class="story-content__text body2">
+                  {{{storySection.storyDescription}}}
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        {{> slide-1-slider}}
+      </div>
+      <!-- </div> -->
+    </div>
+  </div>
+
+</section>
