@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout repo
+      # 1️⃣ Checkout source
       - name: Checkout source
         uses: actions/checkout@v4
 
@@ -28,13 +28,17 @@ jobs:
       - name: Build Vite project
         run: npm run build
 
-      # 5️⃣ FTP Deploy to Azure Linux App Service
-      - name: Deploy to Azure App Service via FTP
-        uses: SamKirkland/FTP-Deploy-Action@4.3.0
-        with:
-          server: waws-prod-dxb-003.ftp.azurewebsites.windows.net  # ✅ no ftps://
-          username: ${{ secrets.AZURE_FTP_USERNAME }}
-          password: ${{ secrets.AZURE_FTP_PASSWORD }}
-          local-dir: dist/           # ✅ must end with /
-          server-dir: /site/wwwroot/
-          protocol: ftps              # ✅ specify ftps separately
+      # 5️⃣ Zip build output
+      - name: Zip dist folder
+        run: |
+          cd dist
+          zip -r ../dist.zip .
+          cd ..
+
+      # 6️⃣ Deploy using Azure ZipDeploy (Kudu)
+      - name: Deploy to Azure App Service (ZipDeploy)
+        run: |
+          curl -X POST \
+            -u "${{ secrets.AZURE_ZIP_USERNAME }}:${{ secrets.AZURE_ZIP_PASSWORD }}" \
+            --data-binary @dist.zip \
+            https://temp-linux.scm.azurewebsites.net/api/zipdeploy
