@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 1️⃣ Checkout source
+      # 1️⃣ Checkout repository
       - name: Checkout source
         uses: actions/checkout@v4
 
@@ -28,17 +28,10 @@ jobs:
       - name: Build Vite project
         run: npm run build
 
-      # 5️⃣ Zip build output
-      - name: Zip dist folder
-        run: |
-          cd dist
-          zip -r ../dist.zip .
-          cd ..
-
-      # 6️⃣ Deploy using Azure ZipDeploy (Kudu)
-      - name: Deploy to Azure App Service (ZipDeploy)
-        run: |
-          curl -X POST \
-            -u "${{ secrets.AZURE_ZIP_USERNAME }}:${{ secrets.AZURE_ZIP_PASSWORD }}" \
-            --data-binary @dist.zip \
-            https://temp-linux.scm.azurewebsites.net/api/zipdeploy
+      # 5️⃣ Deploy to Azure App Service
+      - name: Deploy to Azure App Service
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: temp-linux                 # Your App Service name
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+          package: .                            # Deploy full repo including dist, package.json, node_modules
